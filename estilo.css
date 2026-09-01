@@ -1,0 +1,268 @@
+body,
+li,
+ol,
+ul{
+  border: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font-family: 'Helvetica';  
+}
+a {
+    color: #031d30;
+}
+
+/* ---------- Header ---------- */
+#movingblock{
+  background: none repeat-x scroll 4px 3px #ffc23f; 
+  position: fixed;
+  width: 100%;
+  z-index:10;
+  padding-top: 90px;
+}
+#movingblock2{
+  background: none repeat-x scroll 4px 3px #ffffff; 
+  position: fixed;
+  width: 100%;
+  z-index:11;
+}
+#header_in {
+  width: 100%;
+  max-width: 960px;
+  height: 90px;
+  margin: 0px auto;
+  position: relative; 
+}
+#header_in2 {
+  width: 100%;
+  max-width: 960px;
+  height: 90px;
+  margin: 0px auto;
+  position: relative; 
+}
+#header_in h1 {
+font-family: 'Georgia';
+  font-size: 20pt;
+  letter-spacing: 1px;
+  float: left;
+  padding-left: 5px;  
+  padding-top: 10px;  
+}
+
+#header_in h1 a {
+    text-decoration: none; 
+    color: #111;
+    font-weight: 100; 
+}
+#header_in h1 a b { font-weight: 600;}
+
+      /* ----- Menu ----- */
+      
+#menu {
+  position: relative; 
+  right: 2px;  
+}
+
+#menu2 {
+  position: relative; 
+  right: 2px;  
+}   
+#menu ul li {
+  float: left;
+  display: inline;
+}
+
+#menu ul li2 {
+  float: right;
+  display: inline;
+}
+    
+#menu ul li a {
+  text-decoration: none; 
+  font-size: 130%;
+  font-weight: 400;
+  letter-spacing: 1px;
+  display: block;
+  
+  padding: 30px 25px 0 25px; 
+  height: 60px;
+}
+      
+  #menu ul li a:hover {
+/* color hover menu*/
+    background-color: #f99d2c;
+  }
+      
+  #menu ul li a.active {
+/* color fondo menu*/
+    background-color: #ff7a00;
+/* color letra menu*/
+    color: #f7fbff;
+    font-weight: bold;
+  }
+/* ---------- Main part ---------- */
+
+#title_top {
+    width: 100%;
+    height: 10px;
+    background-color: #ff7a00;
+}
+
+#title_top_in {
+    width: 960px;
+    margin: auto;
+}
+
+#title_top_in h2 {
+    border: 0;
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 14px;
+    font-size: 280%;
+    font-weight: 200;
+    color: #f7fbff;
+}
+
+
+#content {   
+    z-index:7;
+    width: 70%;
+    max-width: 940px;
+    margin: auto;
+    padding-top: 230px;
+}
+
+  dt {
+    float: left;
+    clear: left;
+    width: 80px;
+    text-align: right;
+    font-weight: bold;
+    color: green;
+  }
+
+
+  dd {
+    margin: 0 0 0 100px;
+    padding: 0 0 0.5em 0;
+  }
+
+h33 {
+font-family: 'Georgia';
+  font-size: 20pt;
+  letter-spacing: 1px;
+  float: left;
+  padding-left: 5px;  
+  padding-top: 10px;  
+}
+
+blockquote {display: none;}
+
+a.show:focus ~ blockquote {display:inline-block;}
+
+      /* ----- Mis modos ezpezialesz ----- */
+
+.mainimg {
+  border-radius: 10px;
+  vertical-align: top;
+  padding: 0px;
+  border-width: 0px;
+  float: right;
+  margin: 0px 0px 40px 40px;
+}
+
+.abstract {
+  width: 100%;
+  text-align: justify;
+  background-color: #fff0ba;
+  margin: 20px 20px 20px 0px;
+  border-radius: 10px;
+}
+
+.inabstract {
+  text-align: justify;
+  margin-right: 50px;
+}
+
+.inabstract2 {
+  text-align: justify;
+  margin-right: 50px;
+  background-color: #ffde6b;
+  border-radius: 10px;
+  padding-left: 20px;
+}
+
+.botoncito_lindo {
+    background-color: #ffc23f;
+    border-radius: 10px;
+    color: black;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.botoncito_pdf {
+    background-color: #e53b3b;
+    border-radius: 10px;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+  .listita_bonita {
+  text-align: left;
+  font-size: 20px;
+  width: 250px;
+  color: black;
+}
+  .listita_abstract {
+  text-align: right;
+ width: 80px;
+ color: black;
+}
+
+.centrar {
+    margin: auto;
+    text-align: center;
+}
+
+.centrar2 {
+    margin: auto;
+    text-align: center;
+    font-size: 200%;
+    color: #BF6900;
+}
+
+.student {
+    margin: auto;
+    text-align: center;
+    font-size: 150%;
+    color: #ff7a00;
+}
+
+
+ /* Three image containers (use 25% for four, and 50% for two, etc) */
+.columnitas_estudiantes {
+  border-radius: 50%;
+  text-align: center;
+  float: left;
+  width: 40%;
+  padding: 30px;
+}
+
+/* Clear floats after image containers */
+.filas_estudiantes::after {
+  text-align: center;
+  content: "";
+  clear: both;
+  display: table;
+}
