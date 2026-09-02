@@ -1,0 +1,85 @@
+Ya no soy un mechón
+Glup - Enamorado de ti
+B−
+ Hay funciones en la vida
+ G      A      D      
+ que se portan súper mal
+B−
+ Y algunas de ellas Riemann
+ G      A     D
+ no las puede integrar
+
+              E−
+ Y ahí está Lebesgue
+          A
+ con su medida
+              D
+ Y ahí está Lebesgue
+                    G
+ integrando más que Riemann
+
+ <span class="fn">[Entendiendo la integral de Riemann como la definida para funciones
+  acotadas en intervalos compactos y no su extensión por límites]</span>
+
+              E−
+ Y ahí está Lebesgue
+          A
+ junto al DIM
+
+                   B−      G
+ ¡Integración de Lebesgue!
+    A
+ Cantor
+                   B−      G
+ ¡Integración de Lebesgue!
+   A
+ Radon
+                   B−      G
+ ¡Integración de Lebesgue!
+     A
+ Nikodym
+
+                  B−
+ Yo integro con Lebesgue
+     G           A
+ ¡Ya no soy un mechón!
+
+B−
+ Hay ecuaciones en la vida
+ G       A       D
+ con solución no regular
+B−
+ Interpretación a ello
+ G             A    D
+ siempre he querido encontrar
+
+                E−
+ Y ahí está Sobolev
+               A
+ integrando por partes
+                D
+ Y ahí está Sobolev
+                 G
+ y las funciones test
+                E−
+ Y ahí está Sobolev
+          A
+ junto al DIM
+
+                  B−   G
+ ¡Espacios de Sobolev!
+    A
+ Cauchy
+                  B−   G
+ ¡Espacios de Sobolev!
+   A
+ Rellich
+                  B−   G
+ ¡Espacios de Sobolev!
+       A
+ Kondrachov
+
+            B−
+ Yo uso Sobolev
+     G           A
+ ¡Ya no soy un mechón!

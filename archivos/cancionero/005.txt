@@ -1,0 +1,67 @@
+Del vendedor viajero
+Soda Stereo - De música ligera
+ B− G D A
+ B− G D A
+ B− G D A
+ B− G D A
+ B− G D A
+ B− G D A
+
+ B−         G D      A        B−    G D A
+ Ella buscó     el camino más corto-o
+   B−        G D    A         B−    G D A
+ y yo medité-e,  queriendo ayudarla.
+   B−          G    D    A         G     D A
+ Algún tiempo atrás,  pensé un algoritmo,
+     B−         G D        A          G   D A
+ mas nunca sorteé   la ene pe-completitud.
+
+ B−         G  D     A           B−   G D A
+ Complejida-ad   del vendedor viajero
+ B−          G   D A     B−    G D A
+ Nunca termi-ina,  sólo itera.
+
+ B− G D A
+ B− G D A
+ B− G D A
+ B− G D A
+ 
+    B−          G D    A       B−    G  D A
+ El tiempo bajé-e   en una constante-e,
+     B−          G D     A      B−    G D A
+ mas no lo acoté-e   por un polinomio
+
+ B−         G  D     A           B−   G D A
+ Complejida-ad   del vendedor viajero
+ B−          G   D A     B−    G D A
+ Nunca termi-ina,  sólo itera.
+
+ B− G D A
+ B− G D A
+ B− G D A
+ B− G D A
+ B− G D A
+ B− G D A
+ B− G D A
+ B− G D A
+
+ B−         G  D     A           B−   G D A
+ Complejida-ad   del vendedor viajero
+ B−          G   D A     B−    G D
+ Nunca termi-ina,  sólo itera.
+ A
+ Sólo i-
+
+ B− G D A
+ B− G D
+ A     B−   G D
+ Sólo itera.
+ A     B−   G D
+ Sólo itera.
+ A     B−   G D
+ Sólo itera.
+ A     B−   G D A
+ Sólo itera.
+
+ B− G D A
+ B− G D A

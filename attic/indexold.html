@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+
+  <body background="img/Labyrinth.png" width= "40%" height="40%">
+  
+  <head>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config ( {tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']] }} );
+</script>
+<script type="text/javascript"
+src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+    <meta charset="utf-8"/>
+    <title>Sebasti&aacute;n Barbieri Lemp</title>
+    <meta name="description" content="Research page."/>
+    <link rel="stylesheet" type="text/css" href="test_lyon.css"/>
+
+</head>
+  
+
+<div id="header">
+
+
+
+<h1><center> Sebasti&aacute;n Andr&eacute;s Barbieri Lemp </center></h1>
+
+<ul id="menu">
+    <a href="#publications"><li id="tit1">Research</li></a>
+    <a href="#exposes"><li id="tit2">Talks</li></a>
+    <a href="#liens"><li id="tit3">Links</li></a>
+	<img align="right" hspace="3" onclick="changeLanguage(1)" id="english_version" src="img/english.jpg" alt="english" title="English version"/>
+	<img align="right" hspace="3" onclick="changeLanguage(2)" id="french_version" src="img/french.jpg" alt="french" title="French version"/>
+	<img align="right" hspace="3"  onclick="changeLanguage(3)"id="spanish_version" src="img/spanish.jpg" alt="spanish" title="Spanish version"/>
+</ul>
+</div>
+
+<div id="main" class="cadre">
+<a href="img/Cat.jpg"><img id="photo_id" src="img/foto_seria.jpg" alt="photo" title="The previous and far better picture can be found by clicking here." width= "40%" height="40%"/></a>
+
+
+
+<script>
+function changeLanguage(a) {
+if(a == 1){
+document.getElementById("tit1").innerHTML = "Research"
+document.getElementById("tit2").innerHTML = "Talks"
+document.getElementById("tit3").innerHTML = "Links"
+
+document.getElementById("header1").innerHTML = "I'm currently a postdoc in University of British Columbia until 08/2019.";
+document.getElementById("header2").innerHTML = "My research interests are: symbolic dynamics, dynamical systems, tilings, substitutions, computability, group theory and cellular automata.";
+document.getElementById("header3").innerHTML =  "My CV can be found clicking";
+document.getElementById("header3_1").innerHTML =  "here.";
+document.getElementById("header4").innerHTML =  "Address:";
+document.getElementById("header5").innerHTML =  "Email:";
+
+document.getElementById("res1").innerHTML =  "Research";
+document.getElementById("res2").innerHTML =  "Work in progress:";
+document.getElementById("res3").innerHTML =  "International conferences:";
+document.getElementById("res4").innerHTML =  "Journals:"; 
+document.getElementById("res5").innerHTML =  "Book chapters:";
+document.getElementById("res6").innerHTML =  "Submitted:";
+
+document.getElementById("exp1").innerHTML =  "Talks and Posters";
+document.getElementById("exp2").innerHTML =  "Talks";
+document.getElementById("lin1").innerHTML =  "Links";
+
+
+
+}
+if(a == 2){
+document.getElementById("tit1").innerHTML = "Recherche"
+document.getElementById("tit2").innerHTML = "Exposés"
+document.getElementById("tit3").innerHTML = "Liens"
+
+document.getElementById("header1").innerHTML = "Je suis un postdoc dans l'université de British Columbia.";
+document.getElementById("header2").innerHTML = "Je m'intéresse principalement aux: Systèmes dynamiques, dynamique symbolique, pavages, substitutions, calculabilité, théorie combinatoire des groupes et automates cellullaires.";
+document.getElementById("header3").innerHTML =  "Mon CV est ";
+document.getElementById("header3_1").innerHTML =  "ici.";
+document.getElementById("header4").innerHTML =  "Adresse:";
+document.getElementById("header5").innerHTML =  "Courriel:";
+document.getElementById("res1").innerHTML =  "Recherche";
+document.getElementById("res2").innerHTML =  "Travaux en cours :";
+document.getElementById("res3").innerHTML =  "Conférences :";
+document.getElementById("res4").innerHTML =  "Articles :";
+document.getElementById("res5").innerHTML =  "Chapitres de livre :";
+document.getElementById("res6").innerHTML =  "Soumis:";
+
+document.getElementById("exp1").innerHTML =  "Présentations";
+document.getElementById("exp2").innerHTML =  "Exposés";
+document.getElementById("lin1").innerHTML =  "Liens";
+
+
+
+
+}
+if(a == 3){
+document.getElementById("tit1").innerHTML = "Publicaciones"
+document.getElementById("tit2").innerHTML = "Charlas"
+document.getElementById("tit3").innerHTML = "Enlaces"
+
+document.getElementById("header1").innerHTML = "¡Hola!, actualmente tengo una posición de postdoc en la universidad de British Columbia.";
+document.getElementById("header2").innerHTML = "Mis intereses de investigación son: Sistemas dinámicos, dinámica simbólica, teselados, sustituciones, computabilidad, teoría de grupos y automatas celulares.";
+document.getElementById("header3").innerHTML =  "Puedes encontrar mi CV en este";
+document.getElementById("header3_1").innerHTML =  "enlace.";
+document.getElementById("header4").innerHTML =  "Dirección:";
+document.getElementById("header5").innerHTML =  "Correo electrónico:";
+
+document.getElementById("res1").innerHTML =  "Publicaciones";
+document.getElementById("res2").innerHTML =  "Artículos en construcción:";
+document.getElementById("res3").innerHTML =  "Conferencias:";
+document.getElementById("res4").innerHTML =  "Artículos:";
+document.getElementById("res5").innerHTML =  "Capítulos de libro:";
+document.getElementById("res6").innerHTML =  "Bajo revisión:";
+
+
+
+document.getElementById("exp1").innerHTML =  "Charlas y posters";
+document.getElementById("exp2").innerHTML =  "Charlas";
+
+document.getElementById("lin1").innerHTML =  "Enlaces";
+
+
+
+}
+}
+</script>
+<p id="header1"> I'm currently a postdoc in University of British Columbia until 08/2019.</p>
+<p id="header2"> My research interests are: symbolic dynamics, dynamical systems, tilings, substitutions, computability, group theory and cellular automata.</p>
+<a id="header3"> My CV can be found clicking</a> <a id="header3_1" href="archivos/CurriculumVitae.pdf">here.</a>
+
+<dl>
+    <dt id="header5">Email:</dt>
+    <dd><img src="img/mail.png" width= "40%" height="20%"</img></dd>
+    <dt id="header4">Address:</dt>
+    <dd>
+	PIMS office 4218<br>
+	2207 Main Mall<br>
+	Vancouver, BC<br>
+	V6T 1Z4.<br>
+     </dd> 
+	
+</dl>
+</div>
+	
+<div id="publications" class="cadre">
+<h2 id="res1" >Research</h2>
+
+<dl>
+
+
+<dt id="res4">Journals</dt>
+    <br>
+    <dd>
+
+	<ul>
+	<li>
+	<b>A notion of effectiveness for subshifts on finitely
+generated groups.</b> <a href="archivos/art_geffective_ABS.pdf">[pdf]</a><a href="http://doi.org/10.1016/j.tcs.2016.11.033">[doi]</a><i> in Theoretical Computer Science 2017</i>, With Nathalie Aubrun and Mathieu Sablik.<br>
+	</li>
+	<li>
+	<b>A generalization of the simulation theorem for semidirect products.</b> <a href="archivos/art_simulation_BS.pdf">[pdf]</a><a href="https://doi.org/10.1017/etds.2018.21">[doi]</a><i> in Ergodic Theory and Dynamical Systems 2018</i>, With Mathieu Sablik.<br>
+	</li>
+	<li>
+	<b>(To appear in Groups, Geometry and Dynamics) Realization of aperiodic subshifts and densities in groups.</b> <a href="archivos/art_densities_ABT.pdf">[pdf]</a>, With Nathalie Aubrun and St&eacute;phan Thomass&eacute;.<br>
+	</li>
+
+	</ul>
+    </dd>
+
+    <dt id="res3">International Conferences:</dt>
+    <br>
+    <dd>
+
+	<ul>
+
+	<li>
+	<b>The domino problem for self-similar structures.</b><a href="archivos/art_fractaldp_BS.pdf">[pdf]</a><a href="http://link.springer.com/chapter/10.1007/978-3-319-40189-8_21">[doi]</a><i> in Computing in Europe 2016</i>,  With Mathieu Sablik.<br>
+	</li>
+	<li>
+	<b>The group of reversible Turing machines.</b><a href="archivos/art_grouprevtm_BKS.pdf">[pdf]</a><a href="http://link.springer.com/chapter/10.1007/978-3-319-39300-1_5">[doi]</a> <i> in AUTOMATA 2016</i>,  With Jarkko Kari and Ville Salo.<br>
+	</li>
+	</ul>
+    </dd>
+
+ <dt id="res6">Submitted:</dt>
+    <br>
+    <dd>
+
+	<ul>
+
+	<li>
+	<b>A geometric simulation theorem on direct product of finitely generated groups</b> <a href="archivos/art_simgrig_B.pdf">[pdf]</a><br>
+	</li>
+	<li>
+	<b>A hiearchy of topological systems with completely positive entropy</b> <a href="archivos/art_tcpehierarchy_BG.pdf">[pdf]</a>, with Felipe García-Ramos.<br>
+	</li>
+	</ul>
+    </dd>
+
+
+<dt id="res5">Book chapters:</dt>
+    <br>
+    <dd>
+
+	<ul>
+	<li>
+	<b>About the Domino Problem for Subshifts on Groups.</b> Chapter 9 in Sequences, Groups, and Number Theory. <a href="http://doi.org/10.1007/978-3-319-69152-7">[doi]</a> With Nathalie Aubrun and Emmanuel Jeandel.<br>
+	</li>
+	</ul>
+    </dd>
+
+
+ <dt id="res2">Work in progress:</dt>
+    <br>
+    <dd>
+
+	<ul>
+	<li>
+	A long version of the Automata paper "The group of reversible Turing machines". With Jarkko Kari and Ville Salo. 
+	</li>
+	<li>
+	 A study of automorphism groups of algebraic subshifts. This is work in progress with many people.
+	</li>
+	<li>
+	 Reinterpreting Highman's embedding theorem in dynamical terms. 
+	 </li>
+	<li>
+	 The domino problem for surface groups, and more generally, for hyperbolic groups. This is work in progress with Nathalie Aubrun and Etienne Moutot.
+	 </li>
+	<li>
+	 A project to translate DLR equations to larger classes of group actions.
+	 </li>
+	</ul>
+    </dd>
+
+    <dt>Thesis and Memoires:</dt>
+    <br>
+    <dd>
+
+	<ul>
+
+	<li>
+	<b>Shift spaces on groups: computability and dynamics</b><a href="archivos/Tesis.pdf">[pdf]</a>, <em>PhD Thesis at ENS de Lyon</em>, June 2017.<br>
+	</li>
+
+	<li>
+	<b>Tilings on different structures: exploration
+towards two problems.</b><a href="archivos/MemoriaFrancia.pdf">[pdf]</a>, <em>Mémoire de M2 de l'ENS de Lyon</em>, June 2014.<br>
+	</li>
+
+	<li>
+	<b>Subshifts generados por sustituciones multidimensionales.</b><a href="archivos/MemoriaChile.pdf">[pdf]</a>, <em>Memoria ingenier&iacutea Universidad de Chile</em>, July 2014.<br>
+	</li>
+
+
+	</ul>
+
+    </dd>
+
+</dl>
+
+
+</div>
+
+<div id="exposes" class="cadre">
+
+<h2 id="exp1">Talks</h2>
+    	<br>
+    	<dd>
+
+<dt>Mini courses:</dt>
+    	<br>
+	<dd>
+	<ul>
+	<li>
+	<b>Dinámica simbólica sobre los grupos. [in spanish] </b><a href="archivos/2018_escuelamexico1.pdf">[pdf1]</a> <a href="archivos/2018_escuelamexico2.pdf">[pdf2]</a> <a href="archivos/2018_escuelamexico3.pdf">[pdf3]</a> <a href="archivos/2018_escuelamexico4.pdf">[pdf4]</a>, Ciudad de México, Escuela de invierno en grupos y dinámica en México, january 2018.<br>
+	</li>
+	</ul>
+	</dd>
+
+
+<dt>Talks:</dt>
+    	<br>
+	<dd>
+	<ul>
+
+	
+	<li>
+	<b>A strongly aperiodic SFT in the Grigorchuk group.</b><a href="archivos/talk_2018_toulouse.pdf">[pdf]</a>, Toulouse, March 2018.<br>
+	</li>
+	<li>
+	<b>A strongly aperiodic SFT in the Grigorchuk group.</b><a href="archivos/talk_2017_pingree.pdf">[pdf]</a>, Pingree Park, July 2017.<br>
+	</li>
+	<li>
+	<b>Shift spaces on groups: computability and dynamics.</b><a href="archivos/talk_2017_defense.pdf">[pdf]</a>, PhD thesis defense, June 2017.<br>
+	</li>
+	<li>
+	<b>Realizability of non-expansive dynamics and applications.</b><a href="archivos/talk_2017_amiens.pdf">[pdf]</a>, Workshop dyadisc Amiens, June 2017.<br>
+	</li>
+	<li>
+	<b>Symbolic dynamics and simulation theorems.</b><a href="archivos/talk_2017_irif.pdf">[pdf]</a>, Séminaire Automata IRIF, May 2017.<br>
+	</li>
+	<li>
+	<b>Strongly aperiodic subshifts in countable groups.</b><a href="archivos/talk_2017_ernest.pdf">[pdf]</a>, Séminaire Ernest Marseille, April 2017.<br>
+	</li>
+	<li>
+	<b>Strongly aperiodic subshifts in countable groups.</b><a href="archivos/talk_2017_doua.pdf">[pdf]</a>, Séminaire de combinatoire et théorie des nombres DOUA, March 2017.<br>
+	</li>
+	<li>
+	<b>The torsion problem for the automorphism group of a full $\mathbb{Z}^d$-shift and its topological fullgroup. </b><a href="archivos/talk_2017_wroclaw.pdf">[pdf]</a>, Wroclaw, March 2017.<br>
+	</li>
+	<li>
+	<b>The group of reversible Turing machines and the torsion problem for $\operatorname{Aut}(\mathcal{A}^{\mathbb{Z}^d})$ and related topological fullgroups. </b><a href="archivos/talk_2016_cmm.pdf">[pdf]</a>, CMM, December 2016.<br>
+	</li>
+	<li>
+	<b>The domino problem for self-similar structures. </b><a href="archivos/talk_2016_cie.pdf">[pdf]</a>, CIE, June 2016.<br>
+	</li>
+	<li>
+	<b>The group of reversible Turing machines.</b><a href="archivos/talk_2016_automata.pdf">[pdf]</a>, AUTOMATA, June 2016.<br>
+	</li>
+	<li>
+	<b>Une courte preuve de l'existence des subshifts fortement apériodiques sur les groupes dénombrables. [in french] </b><a href="archivos/talk_2016_interactions.pdf">[pdf]</a>, Interactions, ENS de Lyon, May 2016.<br>
+	</li>
+	<li>
+	<b>Que pensent les mosaïques de la monotonie ? [in french]</b><a href="archivos/talk_2016_detente.pdf">[pdf]</a>, Séminaire détente matématique ENS de Lyon, March 2016.<br>
+	</li>
+	<li>
+	<b>A short proof of the existence of non-empty strongly aperiodic subshifts over $\{0,1\}$ in countable groups.</b><a href="archivos/talk_2016_lama.pdf">[pdf]</a>, Chambery, January 2016.<br>
+	</li>
+	<li>
+	<b>A short proof of the existence of non-empty strongly aperiodic subshifts over $\{0,1\}$ in countable groups.</b><a href="archivos/talk_2015_amiens.pdf">[pdf]</a>, Amiens, December 2015.<br>
+	</li>
+	<li>
+	<b>The domino problem for structures between $\mathbb{Z}$ and $\mathbb{Z}^2$.</b><a href="archivos/talk_2015_parisest.pdf">[pdf]</a>, Paris-est Creteil, November 2015.<br>
+	</li>
+	<li>
+	<b>The domino problem for structures between $\mathbb{Z}$ and $\mathbb{Z}^2$.</b><a href="archivos/talk_2015_turku.pdf">[pdf]</a>, University of Turku, October 2015.<br>
+	</li>
+	<li>
+	<b>Subshifts in groups: From square-free words on graphs to aperiodic subshifts.</b><a href="archivos/talk_2015_rouen.pdf">[pdf]</a>, Rouen, October 2015.<br>
+	</li>
+	<li>
+	<b>Effectiveness and aperiodicity of subshifts.</b><a href="archivos/talk_2015_calculabilites.pdf">[pdf]</a>, Fontainebleau, Journées Calculabilitées, April 2015.<br>
+	</li>
+	<li>
+	<b>Effectiveness in finitely generated groups.</b><a href="archivos/talk_2014_liafa.pdf">[pdf]</a>, Paris, <a href="http://www.liafa.jussieu.fr/">LIAFA</a>, November 2014.<br>
+	</li>
+
+	</ul>
+	</dd>
+	<dt>Posters:</dt>
+    	<br>
+	<dd>
+	<ul>
+	<li>
+	<b>The domino problem for fractal subsets between $\mathbb{Z}$ and $\mathbb{Z}^2$.</b><a href="archivos/poster_fractal_2016.pdf">[pdf]</a>, Paris, Journées GDR-IM, january 2016.<br>
+	</li>
+
+	<li>
+	<b>Effectiveness in finitely generated groups.</b><a href="archivos/poster_effectiveness_2015.pdf">[pdf]</a>, Chile, Workshop on Symbolic Dynamics on finitely presented Groups, december 2014.<br>
+	</li>
+	</dd>
+
+</div>
+
+<div id="liens" class="cadre">
+<h2 id="lin1">Links </h2>
+
+	<ul>
+	<li> <a href="https://www.math.ubc.ca/~sbarbieri/cursos/math253_103.html"> The webpage</a> for the course MATH253:103 I'm teaching at UBC.</li>
+	<li> <a href="https://projecteuler.net/">Project Euler</a>, a page with hundreds of math problems. <em>My friend key:766412_FJHCB0aQSNlb36NDq86FcmayO5Lc7TzT</em></li>
+	<li> <a href="http://golly.sourceforge.net/">Golly</a>, a really nice cellular automata simulator.</li>
+	<li> <a href="http://madebyevan.com/fsm/">Here</a> is a	nice page to draw finite automata and graphs.</li>
+	<li> <a href="http://www.jflap.org/">JFLAP</a>, A simulator of finite automata, grammars and Turing machines.</li>
+	<li> <a href="https://cloud.sagemath.com/">Sage</a>, A free online mathematical software.</li>
+	<li>Bonus: <a href="http://perso.ens-lyon.fr/sebastian.barbieri/archivos/Russian_thirdcut.mp4" onclick="javascript:void window.open('http://perso.ens-lyon.fr/sebastian.barbieri/archivos/Russian_thirdcut.mp4','1411564575441','width=700,height=500,toolbar=0,menubar=0,location=0,status=1,scrollbars=1,resizable=1,left=0,top=0');return false;"> A video for the 2013 ACM ICPC in Saint Petersburg </a> With Jorge Perez, Nicolás Sanhueza And Christian Von Borries.
+	</li>
+	</ul>
+
+</div>		
+<CENTER><dd><img src="https://projecteuler.net/profile/Vardieri.png"</img></dd></CENTER>
+
+
+  </body>
+</html>
+
+

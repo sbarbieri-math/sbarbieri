@@ -1,0 +1,123 @@
+
+body {
+    font-size: 15px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    background-color: #FFFFCC;
+}
+
+dt {
+    font-weight: bold;
+}
+
+p {
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+h1, h2, h3 {
+    font-weight: normal;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    font-size: 250%;
+    color: black;
+    margin: 0px;
+    padding: 0px;
+}
+
+h2 {
+    font-size: 200%;
+    margin-bottom: 40px;
+}
+
+h3 {
+    font-size: 150%;
+    margin-bottom: 20px 0px;
+}
+
+em {
+    font-style: italic;
+    font-weight: normal;
+}
+
+strong {
+    font-style: normal;
+    font-weight: bold;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: #B30000;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #FFC125;
+}
+
+dd {
+    margin-bottom: 10px;
+}
+
+img {
+    vertical-align: top;
+    padding: 0px;
+    border-width: 0px;
+}
+
+.item {
+    font-size: 13px;
+    border-width: 0px;
+    padding: 2px 5px;
+    margin-bottom: 7px;
+    background-color: white;
+}
+
+#header {
+    margin: 10px auto;
+}
+
+.cadre, #header {
+    max-width: 750px;
+    border-width: 0px;
+    padding: 0px 40px;
+}
+
+.cadre {
+    padding: 40px;
+border:1px solid black;
+    clear: both;
+    margin: 40px auto;
+    color: #333;
+    background-color: white;
+}
+
+.item, .cadre, #photo_id {
+    border-radius: 10px;
+}
+
+#photo_id {
+    float: right;
+    border-width: 0px;
+    margin: 0px 0px 40px 40px;
+    padding: 0px;
+}
+
+#menu {
+    font-weight: bold;
+    list-style-type: none;
+    font-size: 18px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#menu li {
+    float: left;
+    width: 20%;
+    text-align: center;
+    margin: 0px;
+    padding: 10px 0px;
+}
+

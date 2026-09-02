@@ -1,0 +1,80 @@
+Banach-Alaoglu
+Los Prisioneros - Tren al sur
+ A− F A− F A− F A− F
+ A− F A− F A− F A− F
+ 
+ A−             F
+ Un conjunto que es cerrado
+ A−           F
+ y también es acotado
+ A−          F
+ quiere ir hacia las tierras
+ A−         F          A−  F
+ donde vale Banach-Alaoglu
+ 
+ A− F A− F A− F
+
+ A−       F
+ Una cantidad finita
+ A−           F
+ de bolas muy pequeñitas
+ A−         F
+ no cubre a nuestro amigo;
+ A−          F
+ él no puede ser compacto
+
+ hay algunas sucesiones
+ sin punto de acumulación
+         A− F
+ ah, ah, ah
+
+ A− F A− F A− F
+
+   G            C A−
+ Y no me digas ¡débil<span class="fn">[-estrella]</span>!
+  E−      F    G
+ aquí no vale Riesz
+                     C  A−
+ no ves que estoy compacto
+    E−        F     G
+ no ves que estoy feliz
+
+ A− F A− F A− F A− F
+
+ A−        F
+ Evaluando funcionales
+ A−          F
+ construimos los pilares
+ A−           F
+ de aquella topología
+ A−         F          A−  F
+ donde vale Banach-Alaoglu
+
+ A− F
+
+ A−            F
+ Yo recuerdo a mi mamita
+    A−             F
+ vive en dimensión infinita
+  A−              F
+ y en el dual de aquel espacio
+ A−         F
+ es donde estoy viviendo
+
+ hay algunas sucesiones
+ sin punto de acumulación
+ hay algunas sucesiones
+ sin punto de acumulación
+
+   G            C A−
+ Y no me digas ¡débil<span class="fn">[-estrella]</span>!
+  E−      F    G
+ aquí no vale Riesz
+                     C  A−
+ no ves que estoy compacto
+    E−        F     G
+ no ves que estoy feliz
+
+ Usando el Banach,
+     F          A−
+ ¡el Banach-Alaoglu<span class="fn">[-Bourbaki]</span>!
