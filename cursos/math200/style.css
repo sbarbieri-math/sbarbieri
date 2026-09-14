@@ -1,0 +1,237 @@
+body {
+        background: #ffffff;
+        color: #000000;
+        /*background-image: url('mast_wm.png');*/
+        /*background-repeat: no-repeat;*/
+        /*margin:0px; */
+        /*padding:0px; */
+        /*font:11px verdana, arial, helvetica, sans-serif; */
+        }
+
+div.progoutblock {
+  background: #eeeeee;
+  border: 1px #aaaaaa dashed;
+}
+
+div.blogentry {
+  margin-left: 70px;
+  margin-right: 70px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-bottom: 1px #444444 dashed;
+  /*  border-left: 1px #444444 dashed;*/
+}
+
+p {
+  padding-left: 1ex;
+  /*text-indent: 1em;*/
+  /*background: #d3f3e3;*/
+}
+
+
+p.footer, p.legal {
+  color: #aaaaaa;
+  font-size: smaller;
+}
+p.footer a:link { color: #aaaaff; }
+p.legal  a:link { color: #aaaaff; }
+p.footer a:visited { color: #BFAAFF; }
+p.legal  a:visited { color: #BFAAFF; }
+
+
+p.hilite {
+  text-align: center;
+  /*font-style: italic;*/
+  font-size: larger;
+  /*background: #ddddff;*/
+  color: red;
+}
+
+p.keywords {
+  background: #ffdddd;
+  padding: 2px;
+}
+
+p.thumbs {
+  padding-left: 4px;	
+  padding-right: 4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  background: #f8f8f8;
+  border: 1px #ebebeb solid;
+}
+p.thumbs img {
+  /*background: #ffffff;*/
+  border: 1px black solid;
+  /*align: "middle";*/
+}
+
+div.thumbs {
+  /*border-bottom: 1px #444444 dashed;*/
+  /*border-left: 1px #444444 dashed;*/
+  background: #f8f8f8;	
+  border: 1px #ebebeb solid;
+  padding: 0px;
+  margin-bottom: 15px; 
+}
+div.thumbs h2, h3 {
+  /*border-bottom: 1px #444444 dashed;*/
+  /*border-left: 1px #444444 dashed;*/
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  /*background-color: #eeeeee;*/
+}
+div.thumbs p {
+  /*border: 1px #ebebeb solid;*/
+  /*padding-bottom: 4px;*/
+}
+div.thumbs img {
+  /*background: #ffffff;*/
+  border: 1px black solid;
+  /*align: "middle";*/
+}
+
+
+abbr, acronym {
+  border-bottom: 1px dotted #a0a0a0;
+  cursor: help;
+}
+
+
+ul {
+  list-style-type: disc;
+  list-style-image: url(bluebullet1.png);
+}
+
+ul ul {
+  list-style-type: square;
+  list-style-image: url(bluebullet2.png);
+}
+
+
+hr {
+  background: #f0f0ff;
+  border: 1px #d0d0ff solid;
+  height: 2px;
+}
+
+hr.small {
+  background: transparent;
+  /*border-top: 1px #a0a0ff dashed;*/
+  border-top: 1px #d0d0d0 dashed;
+  border-bottom: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  height: 2px;
+  /*width: 75%;*/
+  margin-left: 7px;
+  margin-right: 50%;
+}
+
+
+h1, h2, h3 {
+  color: #444444;
+}
+
+h1.title {
+  background: #f0f0ff;
+  border: 1px #d0d0ff solid;
+  padding: 2px;
+}
+
+
+ul.keywords {
+  display: inline
+}
+ul.keywords li {
+  color: #000000;
+  background: #ffddff;
+  border: 1px black dotted;
+  display: inline;
+}
+
+img {
+  border: 0;
+}
+img.framed {
+  border: 1px solid #a0a0ff;
+}
+img.ralign {
+  float: right;
+  padding-left: 8px;
+}
+img.lalign {
+  float: left;
+  padding-right: 10px;
+}
+
+
+div.firstfloatbox {
+  float: left;
+  /* border: 2px solid #ffffff; */
+  padding-left: 2ex;
+  padding-right: 2ex;
+  text-align: center;
+  vertical-align: middle;
+  height: 100px;
+}
+div.floatbox {
+  float: left;
+  /* border: 2px solid #ffffff; */
+  padding-left: 2ex;
+  padding-right: 2ex;
+  /* border-right: 1px dashed #666666; */
+  border-left: 1px dashed #a0a0ff;
+  text-align: center;
+  vertical-align: middle;
+  height: 100px;
+}
+
+
+a:hover {
+  background: #ffff99;
+}
+
+em.emat {
+  font-style: normal;
+  color: #888888;
+}
+span.emailsym {
+  font-style: normal;
+  color: #888888;
+}
+p.legal span.emailsym {
+  font-style: normal;
+  color: #cccccc;
+}
+
+
+/* Properties that both side lists have in common */
+#link-list {
+  float: right;
+  width: 150px;
+  position:absolute;
+  height: 500px;
+  top: 330px;
+  right:20px;
+  /*font-size:80%;*/
+  padding-left:6px;
+  padding-right:6px;
+  padding-top:12px;
+  padding-bottom:12px;
+  margin-left:0;
+  margin-right:0;
+  background:#e0e0ff;
+  border: 1px solid #a0a0ff;
+  text-align:center
+}
+
+/* we leave some place on the side using the margin-* properties */
+#main {
+        /*margin-left:10.2em;*/
+        margin-right:12em;
+        /*padding-left:1em;*/
+        /*padding-right:1em;*/
+}
+
