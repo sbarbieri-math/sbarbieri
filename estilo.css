@@ -266,3 +266,50 @@ a.show:focus ~ blockquote {display:inline-block;}
   clear: both;
   display: table;
 }
+
+ /* ----- Estudiantes en filas: foto a la izquierda, datos a la derecha ----- */
+.fila_estudiante {
+  display: flex;
+  align-items: center;
+  padding: 20px 0px;
+}
+
+/* Linea delgada entre entradas consecutivas (no antes de la primera) */
+.fila_estudiante + .fila_estudiante {
+  border-top: 1px solid #ffde6b;
+}
+
+.foto_estudiante {
+  flex: 0 0 15%;
+  max-width: 15%;
+  box-sizing: border-box;
+  padding: 0px 30px 0px 0px;
+  text-align: center;
+}
+
+.foto_estudiante img {
+  width: 100%;
+  height: auto;
+}
+
+.info_estudiante {
+  flex: 1 1 auto;
+  text-align: left;
+  line-height: 1.7;
+}
+
+/* En pantallas angostas la foto pasa arriba y el texto abajo */
+@media (max-width: 700px) {
+  .fila_estudiante {
+    display: block;
+    text-align: center;
+  }
+  .foto_estudiante {
+    max-width: 55%;
+    margin: 0px auto 10px auto;
+    padding: 0px;
+  }
+  .info_estudiante {
+    text-align: center;
+  }
+}
