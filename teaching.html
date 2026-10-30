@@ -1,77 +1,53 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
-  <script type="text/x-mathjax-config">
-MathJax.Hub.Config ( {tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']] }} );
-</script>
-<script type="text/javascript"
-src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
-<style>
-img {
-  border-radius: 50%;
-}
-</style>
-<script>
-function show_wea(r) {
-    var x = document.getElementById(r);
-    if (x.style.display === "none") {
-        x.style.display = "block";
-    } else {
-        x.style.display = "none";
-    }
-}
-</script>
   <meta charset="UTF-8">
-  <meta name="description" content="Barbieri_research_webpage" />
-  <title>Vardi - Teaching</title>
-  <link rel="stylesheet" href="estilo.css" type="text/css">
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Teaching — Sebastián Barbieri Lemp</title>
+  <meta name="description" content="Students, course notes and courses taught by Sebastián Barbieri Lemp.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Teaching — Sebastián Barbieri Lemp">
+  <meta property="og:description" content="Students, course notes and courses taught by Sebastián Barbieri Lemp.">
+  <link rel="stylesheet" href="estilo.css">
   <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <script>
+    window.MathJax = {tex: {inlineMath: [["$", "$"], ["\\(", "\\)"]]}};
+  </script>
+  <script id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
-
 <body>
-   <div id="movingblock2"> 
-   <div id="header_in2">
-<br>
-<p style=" font-size: 25pt; font-weight:normal; letter-spacing: 1px; margin: auto; text-align: center;"><img src="img/alpacaL.png" alt=" " width= "30" height="30" /> Sebasti&aacute;n Barbieri Lemp <img src="img/alpacaR.png" alt=" " width= "30" height="30" /></p>
-  </div>
-  </div>
-  <!-- *********  Header  ********** -->
-  <div id="movingblock">
-    <div id="header_in">
-      <div id="menu">
-        <ul>
-	  <li><a href="index.html">Home</a></li>
-          <li><a href="research.html">Research</a></li>
-	  <li><a href="talks.html">Talks</a></li>
-          <li><a href="teaching.html" class="active">Teaching</a></li>
-          <li><a href="misc.html">Misc</a></li>
-        </ul>
-      </div>
+  <header class="site-header">
+    <div class="site-bar">
+      <a class="site-name" href="index.html">
+        <img src="img/alpacaL_fill.png" alt="" width="26" height="26">
+        Sebasti&aacute;n Barbieri Lemp
+        <img src="img/alpacaL_fillR.png" alt="" width="26" height="26">
+      </a>
+      <nav class="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="talks.html">Talks</a></li>
+        <li><a href="teaching.html" class="active" aria-current="page">Teaching</a></li>
+        <li><a href="misc.html">Misc</a></li>
+      </ul>
+      </nav>
     </div>
-    <!-- *********  Main part (slider)  ********** -->
-    <div id="title_top">
-      <div id="title_top_in">
-        <h2></h2>
-      </div>
-    </div>
-  </div>   
-  <!-- *********  Content  ********** -->
-  <div id="content">
+  </header>
 
-    <div >
+  <main id="content">
+<h1 class="page-title">Teaching</h1>
 
-	<h2 class="centrar2"> <b>PhD students</b></h2>
+<h2>PhD students</h2>
 	
 	 <div class="fila_estudiante">
     <div class="foto_estudiante">
       <a href="https://sites.google.com/usach.cl/vvictor/inicio?authuser=0"><img src="img/Academia/victorvaldebenito.jpg" alt="Victor"></a>
     </div>
     <div class="info_estudiante">
-      <b><a class="student" href="https://sites.google.com/usach.cl/vvictor/inicio?authuser=0">Victor Valdebenito Silva</a></b><br>
-      <b> Defense expected late 2027 </b><br>
+      <span class="detail"><a class="student" href="https://sites.google.com/usach.cl/vvictor/inicio?authuser=0">Victor Valdebenito Silva</a></span>
+      <span class="detail">Defense expected late 2027</span>
     </div>
   </div>
 
@@ -80,10 +56,10 @@ function show_wea(r) {
       <img src="img/Academia/paola.jpg" alt="Paola">
     </div>
     <div class="info_estudiante">
-      <b class="student">Paola Rivera</b><br>
-      <b> co-directed with <a href="https://sites.google.com/view/cristobalrivas">Cristóbal Rivas</a> </b><br>
-      <b> Defended on 18-may-2025 </b><br>
-      <b><a href="archivos/otros/Tesis_paola.pdf"> Thesis</a></b><br>
+      <span class="student">Paola Rivera</span>
+      <span class="detail">co-directed with <a href="https://sites.google.com/view/cristobalrivas">Cristóbal Rivas</a></span>
+      <span class="detail">Defended on 18-may-2025</span>
+      <span class="detail"><a href="archivos/otros/Tesis_paola.pdf"> Thesis</a></span>
     </div>
   </div>
 
@@ -92,23 +68,22 @@ function show_wea(r) {
       <a href="https://nicanorcarrascovargas.github.io/"><img src="img/Academia/nicanor.jpg" alt="Nicanor"></a>
     </div>
     <div class="info_estudiante">
-      <b><a class="student" href="https://nicanorcarrascovargas.github.io/">Nicanor Carrasco-Vargas</a></b><br>
-      <b> co-directed with <a href="https://www.mat.uc.cl/personas/perfil/cristobal.rojas">Cristóbal Rojas</a> </b><br>
-      <b> Defended on 15-sep-2024 </b><br>
-      <b><a href="https://repositorio.uc.cl/handle/11534/88339"> Thesis</a></b><br>
+      <span class="detail"><a class="student" href="https://nicanorcarrascovargas.github.io/">Nicanor Carrasco-Vargas</a></span>
+      <span class="detail">co-directed with <a href="https://www.mat.uc.cl/personas/perfil/cristobal.rojas">Cristóbal Rojas</a></span>
+      <span class="detail">Defended on 15-sep-2024</span>
+      <span class="detail"><a href="https://repositorio.uc.cl/handle/11534/88339"> Thesis</a></span>
     </div>
   </div>
 
 <hr>
-	<br>
-	<h2 class="centrar2"> <b>Master students</b></h2>
+	<h2>Master students</h2>
 	 <div class="fila_estudiante">
     <div class="foto_estudiante">
       <img src="img/Academia/foto_melanie.jpg" alt="Melanie">
     </div>
     <div class="info_estudiante">
-      <b class="student">Melanie Cubillos</b><br>
-      <b> Defense expected late 2026. </b><br>
+      <span class="student">Melanie Cubillos</span>
+      <span class="detail">Defense expected late 2026.</span>
     </div>
   </div>
 
@@ -117,9 +92,9 @@ function show_wea(r) {
       <img src="img/Academia/foto_paul.jpg" alt="Paul">
     </div>
     <div class="info_estudiante">
-      <b class="student">Paul Toussaint</b><br>
-      <b> Defended on 01-sep-2025 </b><br>
-      <b><a href="archivos/otros/Tesis_paul.pdf"> Thesis</a></b><br>
+      <span class="student">Paul Toussaint</span>
+      <span class="detail">Defended on 01-sep-2025</span>
+      <span class="detail"><a href="archivos/otros/Tesis_paul.pdf"> Thesis</a></span>
     </div>
   </div>
 
@@ -128,22 +103,21 @@ function show_wea(r) {
       <img src="img/Academia/esteban.jpg" alt="Esteban">
     </div>
     <div class="info_estudiante">
-      <b class="student">Esteban Cifuentes</b><br>
-      <b> Defended on 17-apr-2024 </b><br>
-      <b><a href="archivos/otros/Tesis_esteban.pdf"> Thesis</a></b><br>
+      <span class="student">Esteban Cifuentes</span>
+      <span class="detail">Defended on 17-apr-2024</span>
+      <span class="detail"><a href="archivos/otros/Tesis_esteban.pdf"> Thesis</a></span>
     </div>
   </div>
   
  <hr>
-	<br>
-	<h2 class="centrar2"> <b>Undergrad students</b></h2>
+	<h2>Undergrad students</h2>
 	 <div class="fila_estudiante">
     <div class="foto_estudiante">
       <img src="img/Academia/foto_diegocabrera.jpg" alt="Diego">
     </div>
     <div class="info_estudiante">
-      <b class="student">Diego Cabrera</b><br>
-      <b> Defense expected december 2026 </b><br>
+      <span class="student">Diego Cabrera</span>
+      <span class="detail">Defense expected december 2026</span>
     </div>
   </div>
 
@@ -152,50 +126,759 @@ function show_wea(r) {
       <img src="img/Academia/foto_exequieldlc.jpg" alt="Exequiel">
     </div>
     <div class="info_estudiante">
-      <b class="student">Exequiel De la Cuadra</b><br>
-      <b> Defense expected december 2026 </b><br>
+      <span class="student">Exequiel De la Cuadra</span>
+      <span class="detail">Defense expected december 2026</span>
     </div>
   </div> 
   
-<hr><br>
-	<h2 class="centrar2"> <b>Course notes</b></h2>
+<hr><h2>Course notes</h2>
 	
-	<div class="filas_estudiantes">
-  <div class="columnitas_estudiantes">
-    <a id = "apunte2" href="archivos/teaching/Apunte_algebra_III.pdf"><img src="img/Academia/apuntealgebra.jpg" alt="Apuntealgebra" style="width:80%"><br><br></a>
-    <b ><a class="student" href="archivos/teaching/Apunte_algebra_III.pdf">Álgebra Lineal</a></b><br>
-  </div>
-  <div class="columnitas_estudiantes">
-    <a id = "apunte2" href="archivos/teaching/Apunte_analisis_I.pdf"><img src="img/Academia/apunteanalisis.jpg" alt="Apunteanalisis" style="width:80%"><br><br></a>
-    <b ><a class="student" href="archivos/teaching/Apunte_analisis_I.pdf">Análisis real</a></b><br>
-  </div>
-</div>	
-	
-<hr><br>
-	<h2 class="centrar2"> <b>Courses</b></h2>
+	<div class="notes">
+  <a class="note-card" href="archivos/teaching/Apunte_algebra_III.pdf">
+    <img src="img/Academia/apuntealgebra.jpg" alt="Cover of the linear algebra lecture notes">
+    <span>&Aacute;lgebra Lineal</span>
+  </a>
+  <a class="note-card" href="archivos/teaching/Apunte_analisis_I.pdf">
+    <img src="img/Academia/apunteanalisis.jpg" alt="Cover of the real analysis lecture notes">
+    <span>An&aacute;lisis real</span>
+  </a>
+</div>
 
-	<p align="center"><iframe width="93.5%" height=400 src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ1kGX3N8UJM2tNk_EjgUMQB4EqtjXi9-bP9G5-gPghmjEzi5JhLWS1y6k5ihOhBlSRsI-x6H12EMds/pubhtml?gid=0&widget=false&headers=false&chrome=false"></iframe></p>
+<hr><h2>Courses</h2>
 
-	<br>
+	<!-- auto:courses -->
+<h3 class="subhead">2026</h3>
 
-<hr><br>
+<details class="entry">
+<summary>
+<span class="entry-row">
+<span class="entry-num is-wide">Spring</span>
+<span class="entry-text"><span class="entry-title">Teoría de Probabilidades</span></span>
+<span class="entry-chevron" aria-hidden="true">&#9654;</span>
+</span>
+</summary>
+<div class="entry-body">
+<dl class="meta">
+<dt>Program</dt>
+<dd>Licenciatura en Matemática - UChile</dd>
+<dt>Page</dt>
+<dd><a href="https://www.u-cursos.cl/ciencias/2026/2/MCLM630/1">U-Cursos</a></dd>
+</dl>
+</div>
+</details>
 
+<details class="entry">
+<summary>
+<span class="entry-row">
+<span class="entry-num is-wide">Fall</span>
+<span class="entry-text"><span class="entry-title">Álgebra I (doctorado)</span></span>
+<span class="entry-chevron" aria-hidden="true">&#9654;</span>
+</span>
+</summary>
+<div class="entry-body">
+<dl class="meta">
+<dt>Program</dt>
+<dd>Doctorado en Matemática - UChile</dd>
+<dt>Page</dt>
+<dd><a href="https://www.u-cursos.cl/ciencias/2026/1/POST0090/1/">U-Cursos</a></dd>
+</dl>
+</div>
+</details>
+
+<h3 class="subhead">2025</h3>
+
+<details class="entry">
+<summary>
+<span class="entry-row">
+<span class="entry-num is-wide">Spring</span>
+<span class="entry-text"><span class="entry-title">Análisis II (teoría de medida)</span></span>
+<span class="entry-chevron" aria-hidden="true">&#9654;</span>
+</span>
+</summary>
+<div class="entry-body">
+<dl class="meta">
+<dt>Program</dt>
+<dd>Ingeniería Matemática - USACH</dd>
+<dt>Page</dt>
+<dd><a href="https://classroom.google.com/u/1/c/NzkxOTMzNTg3OTkz">Classroom</a></dd>
+</dl>
+</div>
+</details>
+
+<details class="entry">
+<summary>
+<span class="entry-row">
+<span class="entry-num is-wide">Fall</span>
+<span class="entry-text"><span class="entry-title">Álgebra Abstracta</span></span>
+<span class="entry-chevron" aria-hidden="true">&#9654;</span>
+</span>
+</summary>
+<div class="entry-body">
+<dl class="meta">
+<dt>Program</dt>
+<dd>Ingeniería Matemática - USACH</dd>
+<dt>Page</dt>
+<dd><a href="https://classroom.google.com/c/NzUyNjY1OTgxNjYy?cjc=jcfgzpc6">Classroom</a></dd>
+</dl>
+</div>
+</details>
+
+<details class="entry">
+<summary>
+<span class="entry-row">
+<span class="entry-num is-wide">Fall</span>
+<span class="entry-text"><span class="entry-title">Teoría de grupos y autómatas celulares</span></span>
+<span class="entry-chevron" aria-hidden="true">&#9654;</span>
+</span>
+</summary>
+<div class="entry-body">
+<dl class="meta">
+<dt>Program</dt>
+<dd>Doctorado en Matemática - USACH</dd>
+<dt>Page</dt>
+<dd><a href="https://classroom.google.com/c/NzU5NTM2MTc1MzQ4?cjc=ozs3llnv">Classroom</a></dd>
+</dl>
+</div>
+</details>
+
+<h3 class="subhead">2024</h3>
+
+<details class="entry">
+<summary>
+<span class="entry-row">
+<span class="entry-num is-wide">Spring</span>
+<span class="entry-text"><span class="entry-title">Análisis funcional</span></span>
+<span class="entry-chevron" aria-hidden="true">&#9654;</span>
+</span>
+</summary>
+<div class="entry-body">
+<dl class="meta">
+<dt>Program</dt>
+<dd>Ingeniería Matemática - USACH</dd>
+<dt>Page</dt>
+<dd><a href="https://classroom.google.com/c/Njg1ODc5MzcxNDAx?cjc=ncx7uj2">Classroom</a></dd>
+</dl>
+</div>
+</details>
+
+<details class="entry">
+<summary>
+<span class="entry-row">
+<span class="entry-num is-wide">Spring</span>
+<span class="entry-text"><span class="entry-title">Análisis II (medida + funcional)</span></span>
+<span class="entry-chevron" aria-hidden="true">&#9654;</span>
+</span>
+</summary>
+<div class="entry-body">
+<dl class="meta">
+<dt>Program</dt>
+<dd>Doctorado en Matemática - USACH</dd>
+<dt>Page</dt>
+<dd><a href="https://classroom.google.com/c/NzAzOTI4OTk0MTk3?cjc=dxidfx7">Classroom</a></dd>
+</dl>
+</div>
+</details>
+
+<details class="entry">
+<summary>
+<span class="entry-row">
+<span class="entry-num is-wide">Fall</span>
+<span class="entry-text"><span class="entry-title">Análisis funcional</span></span>
+<span class="entry-chevron" aria-hidden="true">&#9654;</span>
+</span>
+</summary>
+<div class="entry-body">
+<dl class="meta">
+<dt>Program</dt>
+<dd>Ingeniería Matemática - USACH</dd>
+<dt>Page</dt>
+<dd><a href="https://classroom.google.com/c/NjU5MTA5NTMyODI4?cjc=2hysfqc">Classroom</a></dd>
+</dl>
+</div>
+</details>
+
+<h3 class="subhead">2023</h3>
+
+<details class="entry">
+<summary>
+<span class="entry-row">
+<span class="entry-num is-wide">Spring</span>
+<span class="entry-text"><span class="entry-title">Análisis II (teoría de medida)</span></span>
+<span class="entry-chevron" aria-hidden="true">&#9654;</span>
+</span>
+</summary>
+<div class="entry-body">
+<dl class="meta">
+<dt>Program</dt>
+<dd>Ingeniería Matemática - USACH</dd>
+<dt>Page</dt>
+<dd><a href="https://classroom.google.com/c/NTg5MTAxMzI5MTkx?cjc=xwhzaqj">Classroom</a></dd>
+</dl>
+</div>
+</details>
+
+<details class="entry">
+<summary>
+<span class="entry-row">
+<span class="entry-num is-wide">Fall</span>
+<span class="entry-text"><span class="entry-title">Grupos hiperbólicos</span></span>
+<span class="entry-chevron" aria-hidden="true">&#9654;</span>
+</span>
+</summary>
+<div class="entry-body">
+<dl class="meta">
+<dt>Program</dt>
+<dd>Doctorado en Matemática - USACH</dd>
+<dt>Page</dt>
+<dd><a href="https://classroom.google.com/c/NjAyNjk3MjY1OTA0?cjc=evqirks">Classroom</a></dd>
+</dl>
+</div>
+</details>
+
+<details class="entry">
+<summary>
+<span class="entry-row">
+<span class="entry-num is-wide">Fall</span>
+<span class="entry-text"><span class="entry-title">Análisis I (espacios métricos)</span></span>
+<span class="entry-chevron" aria-hidden="true">&#9654;</span>
+</span>
+</summary>
+<div class="entry-body">
+<dl class="meta">
+<dt>Program</dt>
+<dd>Ingeniería Matemática - USACH</dd>
+<dt>Page</dt>
+<dd><a href="https://classroom.google.com/c/NTk4NjgzMDk4NDMw?cjc=yzpmdre">Classroom</a></dd>
+</dl>
+</div>
+</details>
+
+<h3 class="subhead">2022</h3>
+
+<details class="entry">
+<summary>
+<span class="entry-row">
+<span class="entry-num is-wide">Spring</span>
+<span class="entry-text"><span class="entry-title">Análisis II (teoría de medida)</span></span>
+<span class="entry-chevron" aria-hidden="true">&#9654;</span>
+</span>
+</summary>
+<div class="entry-body">
+<dl class="meta">
+<dt>Program</dt>
+<dd>Ingeniería Matemática - USACH</dd>
+<dt>Page</dt>
+<dd><a href="https://classroom.google.com/c/NTM3NDg3MzMwOTkw?cjc=g7rxsxe">Classroom</a></dd>
+</dl>
+</div>
+</details>
+
+<details class="entry">
+<summary>
+<span class="entry-row">
+<span class="entry-num is-wide">Fall</span>
+<span class="entry-text"><span class="entry-title">Sistemas dinámicos y dinámica simbólica</span></span>
+<span class="entry-chevron" aria-hidden="true">&#9654;</span>
+</span>
+</summary>
+<div class="entry-body">
+<dl class="meta">
+<dt>Program</dt>
+<dd>Magíster en Matemática - USACH</dd>
+<dt>Page</dt>
+<dd><a href="https://classroom.google.com/c/NDgyNTY0NjM2ODQ1?cjc=bdt6sg2">Classroom</a></dd>
+</dl>
+</div>
+</details>
+
+<details class="entry">
+<summary>
+<span class="entry-row">
+<span class="entry-num is-wide">Fall</span>
+<span class="entry-text"><span class="entry-title">Álgebra Abstracta</span></span>
+<span class="entry-chevron" aria-hidden="true">&#9654;</span>
+</span>
+</summary>
+<div class="entry-body">
+<dl class="meta">
+<dt>Program</dt>
+<dd>Ingeniería Matemática - USACH</dd>
+<dt>Page</dt>
+<dd><a href="https://classroom.google.com/c/NDc5NzMxNDQ4MTI0?cjc=43emwhj">Classroom</a></dd>
+</dl>
+</div>
+</details>
+
+<h3 class="subhead">2021</h3>
+
+<details class="entry">
+<summary>
+<span class="entry-row">
+<span class="entry-num is-wide">Spring</span>
+<span class="entry-text"><span class="entry-title">Dinámica simbólica y problemas algorítmicos en grupos</span></span>
+<span class="entry-chevron" aria-hidden="true">&#9654;</span>
+</span>
+</summary>
+<div class="entry-body">
+<dl class="meta">
+<dt>Program</dt>
+<dd>Doctorado en Matemática - USACH</dd>
+</dl>
+</div>
+</details>
+
+<details class="entry">
+<summary>
+<span class="entry-row">
+<span class="entry-num is-wide">Spring</span>
+<span class="entry-text"><span class="entry-title">Análisis II (teoría de medida)</span></span>
+<span class="entry-chevron" aria-hidden="true">&#9654;</span>
+</span>
+</summary>
+<div class="entry-body">
+<dl class="meta">
+<dt>Program</dt>
+<dd>Ingeniería Matemática - USACH</dd>
+</dl>
+</div>
+</details>
+
+<details class="entry">
+<summary>
+<span class="entry-row">
+<span class="entry-num is-wide">Fall</span>
+<span class="entry-text"><span class="entry-title">Teoría ergódica de acciones de grupos</span></span>
+<span class="entry-chevron" aria-hidden="true">&#9654;</span>
+</span>
+</summary>
+<div class="entry-body">
+<dl class="meta">
+<dt>Program</dt>
+<dd>Doctorado en Matemática - USACH</dd>
+</dl>
+</div>
+</details>
+
+<details class="entry">
+<summary>
+<span class="entry-row">
+<span class="entry-num is-wide">Fall</span>
+<span class="entry-text"><span class="entry-title">Análisis I (espacios métricos)</span></span>
+<span class="entry-chevron" aria-hidden="true">&#9654;</span>
+</span>
+</summary>
+<div class="entry-body">
+<dl class="meta">
+<dt>Program</dt>
+<dd>Ingeniería Matemática - USACH</dd>
+</dl>
+</div>
+</details>
+
+<h3 class="subhead">2020</h3>
+
+<details class="entry">
+<summary>
+<span class="entry-row">
+<span class="entry-num is-wide">Spring</span>
+<span class="entry-text"><span class="entry-title">Álgebra III (álgebra lineal)</span></span>
+<span class="entry-chevron" aria-hidden="true">&#9654;</span>
+</span>
+</summary>
+<div class="entry-body">
+<dl class="meta">
+<dt>Program</dt>
+<dd>Ingeniería Matemática - USACH</dd>
+</dl>
+</div>
+</details>
+
+<details class="entry">
+<summary>
+<span class="entry-row">
+<span class="entry-num is-wide">Fall</span>
+<span class="entry-text"><span class="entry-title">Análisis I (espacios métricos)</span></span>
+<span class="entry-chevron" aria-hidden="true">&#9654;</span>
+</span>
+</summary>
+<div class="entry-body">
+<dl class="meta">
+<dt>Program</dt>
+<dd>Ingeniería Matemática - USACH</dd>
+</dl>
+</div>
+</details>
+
+<h3 class="subhead">2018</h3>
+
+<details class="entry">
+<summary>
+<span class="entry-row">
+<span class="entry-num is-wide">Winter</span>
+<span class="entry-text"><span class="entry-title">Differential Calculus with applications to economy and social sciences</span></span>
+<span class="entry-chevron" aria-hidden="true">&#9654;</span>
+</span>
+</summary>
+<div class="entry-body">
+<dl class="meta">
+<dt>Program</dt>
+<dd>University of British Columbia</dd>
+<dt>Page</dt>
+<dd><a href="cursos/math104/index.html">Webpage</a></dd>
+</dl>
+</div>
+</details>
+
+<details class="entry">
+<summary>
+<span class="entry-row">
+<span class="entry-num is-wide">Winter</span>
+<span class="entry-text"><span class="entry-title">Calculus III</span></span>
+<span class="entry-chevron" aria-hidden="true">&#9654;</span>
+</span>
+</summary>
+<div class="entry-body">
+<dl class="meta">
+<dt>Program</dt>
+<dd>University of British Columbia</dd>
+<dt>Page</dt>
+<dd><a href="cursos/math200/index.html">Webpage</a></dd>
+</dl>
+</div>
+</details>
+
+<details class="entry">
+<summary>
+<span class="entry-row">
+<span class="entry-num is-wide">Summer</span>
+<span class="entry-text"><span class="entry-title">Multivariable Calculus</span></span>
+<span class="entry-chevron" aria-hidden="true">&#9654;</span>
+</span>
+</summary>
+<div class="entry-body">
+<dl class="meta">
+<dt>Program</dt>
+<dd>University of British Columbia</dd>
+<dt>Page</dt>
+<dd><a href="cursos/math253_2018S/index.html">Webpage</a></dd>
+</dl>
+</div>
+</details>
+
+<h3 class="subhead">2017</h3>
+
+<details class="entry">
+<summary>
+<span class="entry-row">
+<span class="entry-num is-wide">Winter</span>
+<span class="entry-text"><span class="entry-title">Multivariable Calculus</span></span>
+<span class="entry-chevron" aria-hidden="true">&#9654;</span>
+</span>
+</summary>
+<div class="entry-body">
+<dl class="meta">
+<dt>Program</dt>
+<dd>University of British Columbia</dd>
+<dt>Page</dt>
+<dd><a href="cursos/math253_2017W/index.html">Webpage</a></dd>
+</dl>
+</div>
+</details>
+<!-- /auto:courses -->
+
+<hr>
+
+<h2>Teaching assistantships</h2>
+<!-- auto:assistantships -->
+<h3 class="subhead">2019</h3>
+
+<details class="entry">
+<summary>
+<span class="entry-row">
+<span class="entry-num is-wide">Winter</span>
+<span class="entry-text"><span class="entry-title">Coloration Informatique</span></span>
+<span class="entry-chevron" aria-hidden="true">&#9654;</span>
+</span>
+</summary>
+<div class="entry-body">
+<dl class="meta">
+<dt>Program</dt>
+<dd>Université de Bordeaux</dd>
+<dt>Details</dt>
+<dd>L1 course TP: programming a game from scratch in Python</dd>
+</dl>
+</div>
+</details>
+
+<h3 class="subhead">2017</h3>
+
+<details class="entry">
+<summary>
+<span class="entry-row">
+<span class="entry-num is-wide">Winter</span>
+<span class="entry-text"><span class="entry-title">Logic</span></span>
+<span class="entry-chevron" aria-hidden="true">&#9654;</span>
+</span>
+</summary>
+<div class="entry-body">
+<dl class="meta">
+<dt>Program</dt>
+<dd>ENS de Lyon</dd>
+<dt>Details</dt>
+<dd>L3 course TD: Propositional calculus, completeness theorems, Peano artihmetic, Godel&#x27;s theorems, ZFC set theory.</dd>
+</dl>
+</div>
+</details>
+
+<h3 class="subhead">2016</h3>
+
+<details class="entry">
+<summary>
+<span class="entry-row">
+<span class="entry-num is-wide">Summer</span>
+<span class="entry-text"><span class="entry-title">Optimization</span></span>
+<span class="entry-chevron" aria-hidden="true">&#9654;</span>
+</span>
+</summary>
+<div class="entry-body">
+<dl class="meta">
+<dt>Program</dt>
+<dd>ENS de Lyon</dd>
+<dt>Details</dt>
+<dd>M1 course TD: Linear optimization.</dd>
+</dl>
+</div>
+</details>
+
+<details class="entry">
+<summary>
+<span class="entry-row">
+<span class="entry-num is-wide">Summer</span>
+<span class="entry-text"><span class="entry-title">Foundations of informatics</span></span>
+<span class="entry-chevron" aria-hidden="true">&#9654;</span>
+</span>
+</summary>
+<div class="entry-body">
+<dl class="meta">
+<dt>Program</dt>
+<dd>ENS de Lyon</dd>
+<dt>Details</dt>
+<dd>L3 course TD: Regular, context free and decidable languages. Complexity theory.</dd>
+</dl>
+</div>
+</details>
+
+<details class="entry">
+<summary>
+<span class="entry-row">
+<span class="entry-num is-wide">Winter</span>
+<span class="entry-text"><span class="entry-title">C++ programming</span></span>
+<span class="entry-chevron" aria-hidden="true">&#9654;</span>
+</span>
+</summary>
+<div class="entry-body">
+<dl class="meta">
+<dt>Program</dt>
+<dd>Université Lyon 1</dd>
+<dt>Details</dt>
+<dd>L1 course TD: Introduction to programming in C++</dd>
+</dl>
+</div>
+</details>
+
+<h3 class="subhead">2015</h3>
+
+<details class="entry">
+<summary>
+<span class="entry-row">
+<span class="entry-num is-wide">Summer</span>
+<span class="entry-text"><span class="entry-title">Architecture</span></span>
+<span class="entry-chevron" aria-hidden="true">&#9654;</span>
+</span>
+</summary>
+<div class="entry-body">
+<dl class="meta">
+<dt>Program</dt>
+<dd>Université Lyon 1</dd>
+<dt>Details</dt>
+<dd>L2 course TP: introduction to computer architecture</dd>
+</dl>
+</div>
+</details>
+
+<h3 class="subhead">2014</h3>
+
+<details class="entry">
+<summary>
+<span class="entry-row">
+<span class="entry-num is-wide">Summer</span>
+<span class="entry-text"><span class="entry-title">Competitive programming</span></span>
+<span class="entry-chevron" aria-hidden="true">&#9654;</span>
+</span>
+</summary>
+<div class="entry-body">
+<dl class="meta">
+<dt>Program</dt>
+<dd>ENS de Lyon</dd>
+<dt>Details</dt>
+<dd>L3 course TP: training for the ACM ICPC programming contest</dd>
+</dl>
+</div>
+</details>
+
+<h3 class="subhead">2013</h3>
+
+<details class="entry">
+<summary>
+<span class="entry-row">
+<span class="entry-num is-wide">Spring</span>
+<span class="entry-text"><span class="entry-title">Estadística computacional</span></span>
+<span class="entry-chevron" aria-hidden="true">&#9654;</span>
+</span>
+</summary>
+<div class="entry-body">
+<dl class="meta">
+<dt>Program</dt>
+<dd>FCFM - Universidad de Chile</dd>
+</dl>
+</div>
+</details>
+
+<details class="entry">
+<summary>
+<span class="entry-row">
+<span class="entry-num is-wide">Spring</span>
+<span class="entry-text"><span class="entry-title">Introducción a la dinámica simbólica</span></span>
+<span class="entry-chevron" aria-hidden="true">&#9654;</span>
+</span>
+</summary>
+<div class="entry-body">
+<dl class="meta">
+<dt>Program</dt>
+<dd>FCFM - Universidad de Chile</dd>
+</dl>
+</div>
+</details>
+
+<details class="entry">
+<summary>
+<span class="entry-row">
+<span class="entry-num is-wide">Fall</span>
+<span class="entry-text"><span class="entry-title">Combinatoria</span></span>
+<span class="entry-chevron" aria-hidden="true">&#9654;</span>
+</span>
+</summary>
+<div class="entry-body">
+<dl class="meta">
+<dt>Program</dt>
+<dd>FCFM - Universidad de Chile</dd>
+</dl>
+</div>
+</details>
+
+<details class="entry">
+<summary>
+<span class="entry-row">
+<span class="entry-num is-wide">Fall</span>
+<span class="entry-text"><span class="entry-title">Teoría de la información</span></span>
+<span class="entry-chevron" aria-hidden="true">&#9654;</span>
+</span>
+</summary>
+<div class="entry-body">
+<dl class="meta">
+<dt>Program</dt>
+<dd>FCFM - Universidad de Chile</dd>
+</dl>
+</div>
+</details>
+
+<h3 class="subhead">2012</h3>
+
+<details class="entry">
+<summary>
+<span class="entry-row">
+<span class="entry-num is-wide">Spring</span>
+<span class="entry-text"><span class="entry-title">Teoría de Juegos</span></span>
+<span class="entry-chevron" aria-hidden="true">&#9654;</span>
+</span>
+</summary>
+<div class="entry-body">
+<dl class="meta">
+<dt>Program</dt>
+<dd>FCFM - Universidad de Chile</dd>
+</dl>
+</div>
+</details>
+
+<h3 class="subhead">2011</h3>
+
+<details class="entry">
+<summary>
+<span class="entry-row">
+<span class="entry-num is-wide">Fall</span>
+<span class="entry-text"><span class="entry-title">Ecuaciones diferenciales ordinarias</span></span>
+<span class="entry-chevron" aria-hidden="true">&#9654;</span>
+</span>
+</summary>
+<div class="entry-body">
+<dl class="meta">
+<dt>Program</dt>
+<dd>FCFM - Universidad de Chile</dd>
+</dl>
+</div>
+</details>
+
+<details class="entry">
+<summary>
+<span class="entry-row">
+<span class="entry-num is-wide">Fall</span>
+<span class="entry-text"><span class="entry-title">Ecuaciones diferenciales ordinarias</span></span>
+<span class="entry-chevron" aria-hidden="true">&#9654;</span>
+</span>
+</summary>
+<div class="entry-body">
+<dl class="meta">
+<dt>Program</dt>
+<dd>FCFM - Universidad de Chile</dd>
+</dl>
+</div>
+</details>
+
+<h3 class="subhead">2010</h3>
+
+<details class="entry">
+<summary>
+<span class="entry-row">
+<span class="entry-num is-wide">Spring</span>
+<span class="entry-text"><span class="entry-title">Álgebra lineal</span></span>
+<span class="entry-chevron" aria-hidden="true">&#9654;</span>
+</span>
+</summary>
+<div class="entry-body">
+<dl class="meta">
+<dt>Program</dt>
+<dd>FCFM - Universidad de Chile</dd>
+</dl>
+</div>
+</details>
+<!-- /auto:assistantships -->
+
+	<hr>
 <!-- Write your comments here 
 
-<h2 class="centrar2"> <b>Teaching assistantships</b></h2>
+<h2>Teaching assistantships</h2>
 
-
-	<p align="center"><iframe width="93.5%" height=400 src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ1kGX3N8UJM2tNk_EjgUMQB4EqtjXi9-bP9G5-gPghmjEzi5JhLWS1y6k5ihOhBlSRsI-x6H12EMds/pubhtml?gid=226338304&widget=false&headers=false&chrome=false"></iframe></p>
-
-	<br>
+	<div class="sheet">
+  <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ1kGX3N8UJM2tNk_EjgUMQB4EqtjXi9-bP9G5-gPghmjEzi5JhLWS1y6k5ihOhBlSRsI-x6H12EMds/pubhtml?gid=226338304&widget=false&headers=false&chrome=false" height="400"
+          title="Table of courses" loading="lazy"></iframe>
+</div>
 
 -->
 
 	<!-- Writ
 
-	<dt class="listita_bonita">2024</dt><br><br>
-
-	<b><button class = "botoncito_lindo"  onclick="show_wea('lecture_18')"> &nbsp+&nbsp </button> Análisis funcional.</b><br>
+	<dt class="listita_bonita">2024</dt>
+<span class="detail"><button class = "botoncito_lindo"  onclick="show_wea('lecture_18')"> &nbsp+&nbsp </button> Análisis funcional.</span>
 	<div id="lecture_18" class="abstract", style="display: none;">
 <dt class="listita_abstract"> Institution: </dt>  <dd> Universidad de Santiago de Chile.</dd>
 <dt class="listita_abstract"> Term: </dt>  <dd> Spring </dd>
@@ -203,7 +886,7 @@ function show_wea(r) {
 <dt class="listita_abstract"> Language: </dt>  <dd> Spanish.</dd>
 </div>
 
-	<b><button class = "botoncito_lindo"  onclick="show_wea('lecture_17')"> &nbsp+&nbsp </button> Análisis II - Doctorado.</b><br>
+	<span class="detail"><button class = "botoncito_lindo"  onclick="show_wea('lecture_17')"> &nbsp+&nbsp </button> Análisis II - Doctorado.</span>
 	<div id="lecture_17" class="abstract", style="display: none;">
 <dt class="listita_abstract"> Institution: </dt>  <dd> Universidad de Santiago de Chile.</dd>
 <dt class="listita_abstract"> Term: </dt>  <dd> Spring </dd>
@@ -211,7 +894,7 @@ function show_wea(r) {
 <dt class="listita_abstract"> Language: </dt>  <dd> Spanish.</dd>
 </div>
 
-	<b><button class = "botoncito_lindo"  onclick="show_wea('lecture_16')"> &nbsp+&nbsp </button> Análisis funcional.</b><br>
+	<span class="detail"><button class = "botoncito_lindo"  onclick="show_wea('lecture_16')"> &nbsp+&nbsp </button> Análisis funcional.</span>
 	<div id="lecture_16" class="abstract", style="display: none;">
 <dt class="listita_abstract"> Institution: </dt>  <dd> Universidad de Santiago de Chile.</dd>
 <dt class="listita_abstract"> Term: </dt>  <dd> Autumn </dd>
@@ -219,9 +902,8 @@ function show_wea(r) {
 <dt class="listita_abstract"> Language: </dt>  <dd> Spanish.</dd>
 </div>
 
-	<dt class="listita_bonita">2023</dt><br><br>
-
-	<b><button class = "botoncito_lindo"  onclick="show_wea('lecture_15')"> &nbsp+&nbsp </button> Análisis II - pregrado.</b><br>
+	<dt class="listita_bonita">2023</dt>
+<span class="detail"><button class = "botoncito_lindo"  onclick="show_wea('lecture_15')"> &nbsp+&nbsp </button> Análisis II - pregrado.</span>
 	<div id="lecture_15" class="abstract", style="display: none;">
 <dt class="listita_abstract"> Institution: </dt>  <dd> Universidad de Santiago de Chile.</dd>
 <dt class="listita_abstract"> Term: </dt>  <dd> Spring </dd>
@@ -229,7 +911,7 @@ function show_wea(r) {
 <dt class="listita_abstract"> Language: </dt>  <dd> Spanish.</dd>
 </div>
 
-	<b><button class = "botoncito_lindo"  onclick="show_wea('lecture_14')"> &nbsp+&nbsp </button> Grupos hiperbólicos.</b><br>
+	<span class="detail"><button class = "botoncito_lindo"  onclick="show_wea('lecture_14')"> &nbsp+&nbsp </button> Grupos hiperbólicos.</span>
 	<div id="lecture_14" class="abstract", style="display: none;">
 <dt class="listita_abstract"> Institution: </dt>  <dd> Universidad de Santiago de Chile.</dd>
 <dt class="listita_abstract"> Term: </dt>  <dd> Autumn </dd>
@@ -237,19 +919,16 @@ function show_wea(r) {
 <dt class="listita_abstract"> Language: </dt>  <dd> Spanish.</dd>
 </div>
 
-	<b><button class = "botoncito_lindo"  onclick="show_wea('lecture_13')"> &nbsp+&nbsp </button> Análisis I.</b><br>
+	<span class="detail"><button class = "botoncito_lindo"  onclick="show_wea('lecture_13')"> &nbsp+&nbsp </button> Análisis I.</span>
 	<div id="lecture_13" class="abstract", style="display: none;">
 <dt class="listita_abstract"> Institution: </dt>  <dd> Universidad de Santiago de Chile.</dd>
 <dt class="listita_abstract"> Term: </dt>  <dd> Autumn </dd>
 <dt class="listita_abstract"> Classroom: </dt>   <dd> <a href="https://classroom.google.com/c/NTk4NjgzMDk4NDMw?cjc=yzpmdre">Join here.</a> </dd>
 <dt class="listita_abstract"> Language: </dt>  <dd> Spanish.</dd>
 </div>
-
-<br>
 	
-<dt class="listita_bonita">2022</dt><br><br>
-
-	<b><button class = "botoncito_lindo"  onclick="show_wea('lecture_16')"> &nbsp+&nbsp </button> Análisis II.</b><br>
+<dt class="listita_bonita">2022</dt>
+<span class="detail"><button class = "botoncito_lindo"  onclick="show_wea('lecture_16')"> &nbsp+&nbsp </button> Análisis II.</span>
 	<div id="lecture_16" class="abstract", style="display: none;">
 <dt class="listita_abstract"> Institution: </dt>  <dd> Universidad de Santiago de Chile.</dd>
 <dt class="listita_abstract"> Term: </dt>  <dd> Aug 21  - Dec 23 </dd>
@@ -257,7 +936,7 @@ function show_wea(r) {
 <dt class="listita_abstract"> Language: </dt>  <dd> Spanish.</dd>
 </div>
 
-	<b><button class = "botoncito_lindo"  onclick="show_wea('lecture_12')"> &nbsp+&nbsp </button> Sistemas dinámicos y dinámica simbólica.</b><br>
+	<span class="detail"><button class = "botoncito_lindo"  onclick="show_wea('lecture_12')"> &nbsp+&nbsp </button> Sistemas dinámicos y dinámica simbólica.</span>
 	<div id="lecture_12" class="abstract", style="display: none;">
 <dt class="listita_abstract"> Institution: </dt>  <dd> Universidad de Santiago de Chile.</dd>
 <dt class="listita_abstract"> Term: </dt>  <dd> Mar 14 - Jul 08 </dd>
@@ -265,7 +944,7 @@ function show_wea(r) {
 <dt class="listita_abstract"> Language: </dt>  <dd> Spanish.</dd>
 </div>
 
-	<b><button class = "botoncito_lindo"  onclick="show_wea('lecture_11')"> &nbsp+&nbsp </button> Álgebra Abstracta.</b><br>
+	<span class="detail"><button class = "botoncito_lindo"  onclick="show_wea('lecture_11')"> &nbsp+&nbsp </button> Álgebra Abstracta.</span>
 	<div id="lecture_11" class="abstract", style="display: none;">
 <dt class="listita_abstract"> Institution: </dt>  <dd> Universidad de Santiago de Chile.</dd>
 <dt class="listita_abstract"> Term: </dt>  <dd> Mar 14 - Jul 08 </dd>
@@ -273,91 +952,73 @@ function show_wea(r) {
 <dt class="listita_abstract"> Language: </dt>  <dd> Spanish.</dd>
 </div>
 
-<br>
-	
-	
-<dt class="listita_bonita">2021</dt><br><br>
-
-	<b><button class = "botoncito_lindo"  onclick="show_wea('lecture_10')"> &nbsp+&nbsp </button> Dinámica simbólica y problemas algorítmicos en grupos.</b><br>
+<dt class="listita_bonita">2021</dt>
+<span class="detail"><button class = "botoncito_lindo"  onclick="show_wea('lecture_10')"> &nbsp+&nbsp </button> Dinámica simbólica y problemas algorítmicos en grupos.</span>
 	<div id="lecture_10" class="abstract", style="display: none;">
 <dt class="listita_abstract"> Institution: </dt>  <dd> Universidad de Santiago de Chile.</dd>
 <dt class="listita_abstract"> Term: </dt>  <dd> Aug 23 - Dec 10 </dd>
 <dt class="listita_abstract"> Language: </dt>  <dd> Spanish.</dd>
 </div>
 
-	<b><button class = "botoncito_lindo"  onclick="show_wea('lecture_9')"> &nbsp+&nbsp </button> Análisis II (teoría de la medida).</b><br>
+	<span class="detail"><button class = "botoncito_lindo"  onclick="show_wea('lecture_9')"> &nbsp+&nbsp </button> Análisis II (teoría de la medida).</span>
 	<div id="lecture_9" class="abstract", style="display: none;">
 <dt class="listita_abstract"> Institution: </dt>  <dd> Universidad de Santiago de Chile.</dd>
 <dt class="listita_abstract"> Term: </dt>  <dd> Sep 20 - Jan 31 </dd>
 <dt class="listita_abstract"> Language: </dt>  <dd> Spanish.</dd>
 </div>
 
-
-	<b><button class = "botoncito_lindo"  onclick="show_wea('lecture_8')"> &nbsp+&nbsp </button> Teoría ergódica de acciones de grupos.</b><br>
+	<span class="detail"><button class = "botoncito_lindo"  onclick="show_wea('lecture_8')"> &nbsp+&nbsp </button> Teoría ergódica de acciones de grupos.</span>
 	<div id="lecture_8" class="abstract", style="display: none;">
 <dt class="listita_abstract"> Institution: </dt>  <dd> Universidad de Santiago de Chile.</dd>
 <dt class="listita_abstract"> Term: </dt>  <dd> Mar 22 - Jul 31</dd>
 <dt class="listita_abstract"> Language: </dt>  <dd> Spanish.</dd>
 </div>
 
-	<b><button class = "botoncito_lindo"  onclick="show_wea('lecture_7')"> &nbsp+&nbsp </button> Análisis I.</b><br>
+	<span class="detail"><button class = "botoncito_lindo"  onclick="show_wea('lecture_7')"> &nbsp+&nbsp </button> Análisis I.</span>
 	<div id="lecture_7" class="abstract", style="display: none;">
 <dt class="listita_abstract"> Institution: </dt>  <dd> Universidad de Santiago de Chile.</dd>
 <dt class="listita_abstract"> Term: </dt>  <dd> Apr 12 - Aug 31 </dd>
 <dt class="listita_abstract"> Language: </dt>  <dd> Spanish.</dd>
 </div>
-
-<br>
 	
-<dt class="listita_bonita">2020</dt><br><br>
-
-	<b><button class = "botoncito_lindo"  onclick="show_wea('lecture_6')"> &nbsp+&nbsp </button> Álgebra III.</b><br>
+<dt class="listita_bonita">2020</dt>
+<span class="detail"><button class = "botoncito_lindo"  onclick="show_wea('lecture_6')"> &nbsp+&nbsp </button> Álgebra III.</span>
 	<div id="lecture_6" class="abstract", style="display: none;">
 <dt class="listita_abstract"> Institution: </dt>  <dd> Universidad de Santiago de Chile.</dd>
 <dt class="listita_abstract"> Term: </dt>  <dd> Oct 12 - Mar 12</dd>
 <dt class="listita_abstract"> Language: </dt>  <dd> Spanish.</dd>
 </div>
-	<b><button class = "botoncito_lindo"  onclick="show_wea('lecture_5')"> &nbsp+&nbsp </button> Análisis I.</b><br>
+	<span class="detail"><button class = "botoncito_lindo"  onclick="show_wea('lecture_5')"> &nbsp+&nbsp </button> Análisis I.</span>
 	<div id="lecture_5" class="abstract", style="display: none;">
 <dt class="listita_abstract"> Institution: </dt>  <dd> Universidad de Santiago de Chile.</dd>
 <dt class="listita_abstract"> Term: </dt>  <dd> Aug 01 - Sept 26</dd>
 <dt class="listita_abstract"> Language: </dt>  <dd> Spanish.</dd>
 </div>
 
-<br>
-
-<dt class="listita_bonita">2018</dt><br><br>
-	
-	<b><button class = "botoncito_lindo"  onclick="show_wea('lecture_4')"> &nbsp+&nbsp </button> Math104:103</b> Differential Calculus with Applications to Commerce and Social Sciences.<br>
-	<div id="lecture_4" class="abstract", style="display: none;">
+<dt class="listita_bonita">2018</dt>
+<b><button class = "botoncito_lindo"  onclick="show_wea('lecture_4')"> &nbsp+&nbsp </button> Math104:103</b> Differential Calculus with Applications to Commerce and Social Sciences.<div id="lecture_4" class="abstract", style="display: none;">
 <dt class="listita_abstract"> Webpage: </dt>  <dd> <a href="cursos/math104/index.html">Click here.</a> </dd>
 <dt class="listita_abstract"> Institution: </dt>  <dd> University of British Columbia.</dd>
 <dt class="listita_abstract"> Term: </dt>  <dd> Winter 1: Sep 04 - Nov 30.</dd>
 <dt class="listita_abstract"> Lectures: </dt>  <dd> Mon-Wed-Fri 11:00-12:00 at Buchannan A102.</dd>
 <dt class="listita_abstract"> Language: </dt>  <dd> English.</dd>
 </div>
-	<b><button class = "botoncito_lindo"  onclick="show_wea('lecture_3')"> &nbsp+&nbsp </button> Math200:104</b> Calculus III.<br>
-	<div id="lecture_3" class="abstract", style="display: none;">
+	<b><button class = "botoncito_lindo"  onclick="show_wea('lecture_3')"> &nbsp+&nbsp </button> Math200:104</b> Calculus III.<div id="lecture_3" class="abstract", style="display: none;">
 <dt class="listita_abstract"> Webpage: </dt>  <dd> <a href="cursos/math200/index.html">Click here.</a> </dd>
 <dt class="listita_abstract"> Institution: </dt>  <dd> University of British Columbia.</dd>
 <dt class="listita_abstract"> Term: </dt>  <dd> Winter 1: Sep 04 - Nov 30.</dd>
 <dt class="listita_abstract"> Lectures: </dt>  <dd> Mon-Wed-Fri 13:00-14:00 at Buchannan A102.</dd>
 <dt class="listita_abstract"> Language: </dt>  <dd> English.</dd>
 </div>
-	<b><button class = "botoncito_lindo"  onclick="show_wea('lecture_2')"> &nbsp+&nbsp </button> Math253:921</b> Multivariable calculus.<br>
-	<div id="lecture_2" class="abstract", style="display: none;">
+	<b><button class = "botoncito_lindo"  onclick="show_wea('lecture_2')"> &nbsp+&nbsp </button> Math253:921</b> Multivariable calculus.<div id="lecture_2" class="abstract", style="display: none;">
 <dt class="listita_abstract"> Webpage: </dt>  <dd> <a href="cursos/math253_2018S/index.html">Click here.</a></dd>
 <dt class="listita_abstract"> Institution: </dt>  <dd> University of British Columbia.</dd>
 <dt class="listita_abstract"> Term: </dt>  <dd> Summer 1: May 14 - Jun 21.</dd>
 <dt class="listita_abstract"> Lectures: </dt>  <dd> Tue-Thu-Fri 10:00-12:00, Wed 10:00-11:00 at HENN-202.</dd>
 <dt class="listita_abstract"> Language: </dt>  <dd> English.</dd>
 </div>
-
-<br>
-<dt class="listita_bonita">2017</dt><br><br>
-
-	<b><button class = "botoncito_lindo"  onclick="show_wea('lecture_1')"> &nbsp+&nbsp </button> Math253:103</b> Multivariable calculus.<br>
-	<div id="lecture_1" class="abstract", style="display: none;">
+<dt class="listita_bonita">2017</dt>
+<b><button class = "botoncito_lindo"  onclick="show_wea('lecture_1')"> &nbsp+&nbsp </button> Math253:103</b> Multivariable calculus.<div id="lecture_1" class="abstract", style="display: none;">
 <dt class="listita_abstract"> Webpage: </dt>  <dd> <a href="cursos/math253_2017W/index.html">Click here.</a></dd>
 <dt class="listita_abstract"> Institution: </dt>  <dd> University of British Columbia.</dd>
 <dt class="listita_abstract"> Term: </dt>  <dd> Winter 1: Sep 05 - Dec 01.</dd>
@@ -365,17 +1026,12 @@ function show_wea(r) {
 <dt class="listita_abstract"> Language: </dt>  <dd> English.</dd>
 </div>
 
-<br>
-
 <hr>
 
 <h2>Ayudantías</h2>
 
-
-<dt class="listita_bonita">2019</dt><br><br>
-	
-	<b><button class = "botoncito_lindo"  onclick="show_wea('TA_15')"> &nbsp+&nbsp </button> 4TPM110U </b> Coloration Informatique.<br>
-	<div id="TA_15" class="abstract", style="display: none;">
+<dt class="listita_bonita">2019</dt>
+<b><button class = "botoncito_lindo"  onclick="show_wea('TA_15')"> &nbsp+&nbsp </button> 4TPM110U </b> Coloration Informatique.<div id="TA_15" class="abstract", style="display: none;">
 <dt class="listita_abstract"> Topics: </dt>  <dd> Programming a computer game from a python library.</dd>
 <dt class="listita_abstract"> Institution: </dt>  <dd> Université de Bordeaux.</dd>
 <dt class="listita_abstract"> Term: </dt>  <dd> Term 1.</dd>
@@ -384,12 +1040,8 @@ function show_wea(r) {
 <dt class="listita_abstract"> French classification: </dt>  <dd> TP </dd>
 </div>
 
-<br>
-
-<dt class="listita_bonita">2017</dt><br><br>
-
-	<b><button class = "botoncito_lindo"  onclick="show_wea('TA_14')"> &nbsp+&nbsp </button> LOG </b> Logic.<br>
-	<div id="TA_14" class="abstract", style="display: none;">
+<dt class="listita_bonita">2017</dt>
+<b><button class = "botoncito_lindo"  onclick="show_wea('TA_14')"> &nbsp+&nbsp </button> LOG </b> Logic.<div id="TA_14" class="abstract", style="display: none;">
 <dt class="listita_abstract"> Topics: </dt>  <dd> Propositional calculus, completeness theorems, Peano artihmetic, Godel's theorems, ZFC set theory.</dd>
 <dt class="listita_abstract"> Institution: </dt>  <dd> ENS de Lyon.</dd>
 <dt class="listita_abstract"> Term: </dt>  <dd> Term 1.</dd>
@@ -398,12 +1050,8 @@ function show_wea(r) {
 <dt class="listita_abstract"> French classification: </dt>  <dd> TD </dd>
 </div>
 
-<br>
-
-<dt class="listita_bonita">2016</dt><br><br>
-
-	<b><button class = "botoncito_lindo"  onclick="show_wea('TA_13')"> &nbsp+&nbsp </button> OPT </b> Optimization.<br>
-	<div id="TA_13" class="abstract", style="display: none;">
+<dt class="listita_bonita">2016</dt>
+<b><button class = "botoncito_lindo"  onclick="show_wea('TA_13')"> &nbsp+&nbsp </button> OPT </b> Optimization.<div id="TA_13" class="abstract", style="display: none;">
 <dt class="listita_abstract"> Topics: </dt>  <dd> Linear optimization.</dd>
 <dt class="listita_abstract"> Institution: </dt>  <dd> ENS de Lyon</dd>
 <dt class="listita_abstract"> Term: </dt>  <dd> Term 2.</dd>
@@ -411,8 +1059,7 @@ function show_wea(r) {
 <dt class="listita_abstract"> Language: </dt>  <dd> English.</dd>
 <dt class="listita_abstract"> French classification: </dt>  <dd> TD </dd>
 </div>
-	<b><button class = "botoncito_lindo"  onclick="show_wea('TA_12')"> &nbsp+&nbsp </button> FDI</b> Foundations of informatics.<br>
-	<div id="TA_12" class="abstract", style="display: none;">
+	<b><button class = "botoncito_lindo"  onclick="show_wea('TA_12')"> &nbsp+&nbsp </button> FDI</b> Foundations of informatics.<div id="TA_12" class="abstract", style="display: none;">
 <dt class="listita_abstract"> Topics: </dt>  <dd> Regular, context free and decidable languages. Complexity theory.</dd>
 <dt class="listita_abstract"> Institution: </dt>  <dd> ENS de Lyon</dd>
 <dt class="listita_abstract"> Term: </dt>  <dd> Term 2.</dd>
@@ -420,8 +1067,7 @@ function show_wea(r) {
 <dt class="listita_abstract"> Language: </dt>  <dd> French.</dd>
 <dt class="listita_abstract"> French classification: </dt>  <dd> TD </dd>
 </div>
-	<b><button class = "botoncito_lindo"  onclick="show_wea('TA_11')"> &nbsp+&nbsp </button> LIFAP1 </b> C++ programming.<br>
-	<div id="TA_11" class="abstract", style="display: none;">
+	<b><button class = "botoncito_lindo"  onclick="show_wea('TA_11')"> &nbsp+&nbsp </button> LIFAP1 </b> C++ programming.<div id="TA_11" class="abstract", style="display: none;">
 <dt class="listita_abstract"> Topics: </dt>  <dd> Introduction to C++ programming.</dd>
 <dt class="listita_abstract"> Institution: </dt>  <dd> Université Lyon 1.</dd>
 <dt class="listita_abstract"> Term: </dt>  <dd> Term 1.</dd>
@@ -430,12 +1076,8 @@ function show_wea(r) {
 <dt class="listita_abstract"> French classification: </dt>  <dd> TP </dd>
 </div>
 
-<br>
-
-<dt class="listita_bonita">2015</dt><br><br>
-
-	<b><button class = "botoncito_lindo"  onclick="show_wea('TA_10')"> &nbsp+&nbsp </button> LIF06 </b> Architecture.<br>
-	<div id="TA_10" class="abstract", style="display: none;">
+<dt class="listita_bonita">2015</dt>
+<b><button class = "botoncito_lindo"  onclick="show_wea('TA_10')"> &nbsp+&nbsp </button> LIF06 </b> Architecture.<div id="TA_10" class="abstract", style="display: none;">
 <dt class="listita_abstract"> Topics: </dt>  <dd> Computer architecture.</dd>
 <dt class="listita_abstract"> Institution: </dt>  <dd> Université Lyon 1.</dd>
 <dt class="listita_abstract"> Term: </dt>  <dd> Term 2.</dd>
@@ -443,8 +1085,7 @@ function show_wea(r) {
 <dt class="listita_abstract"> Language: </dt>  <dd> French.</dd>
 <dt class="listita_abstract"> French classification: </dt>  <dd> TP </dd>
 </div>
-	<b><button class = "botoncito_lindo"  onclick="show_wea('TA_9')"> &nbsp+&nbsp </button> ACM </b> Competitive programming.<br>
-	<div id="TA_9" class="abstract", style="display: none;">
+	<b><button class = "botoncito_lindo"  onclick="show_wea('TA_9')"> &nbsp+&nbsp </button> ACM </b> Competitive programming.<div id="TA_9" class="abstract", style="display: none;">
 <dt class="listita_abstract"> Topics: </dt>  <dd> Workshop on algorithms for competitive programming.</dd>
 <dt class="listita_abstract"> Institution: </dt>  <dd> ENS de Lyon</dd>
 <dt class="listita_abstract"> Term: </dt>  <dd> Term 2.</dd>
@@ -453,76 +1094,56 @@ function show_wea(r) {
 <dt class="listita_abstract"> French classification: </dt>  <dd> TP </dd>
 </div>
 
-<br>
-
-<dt class="listita_bonita">2013</dt><br><br>
-
-	<b><button class = "botoncito_lindo"  onclick="show_wea('TA_8')"> &nbsp+&nbsp </button> MA5501-1</b> Computational statistics.<br>
-	<div id="TA_8" class="abstract", style="display: none;">
+<dt class="listita_bonita">2013</dt>
+<b><button class = "botoncito_lindo"  onclick="show_wea('TA_8')"> &nbsp+&nbsp </button> MA5501-1</b> Computational statistics.<div id="TA_8" class="abstract", style="display: none;">
 <dt class="listita_abstract"> Webpage: </dt>  <dd> <a href="https://www.u-cursos.cl/ingenieria/2013/2/MA5501/1/">Click here.</a> </dd>
 <dt class="listita_abstract"> Institution: </dt>  <dd> Universidad de Chile.</dd>
 <dt class="listita_abstract"> Term: </dt>  <dd> Spring.</dd>
 <dt class="listita_abstract"> Language: </dt>  <dd> Spanish.</dd>
 </div>
-	<b><button class = "botoncito_lindo"  onclick="show_wea('TA_7')"> &nbsp+&nbsp </button> MA5503-1</b> Introduction to symbolic dynamics.<br>
-	<div id="TA_7" class="abstract", style="display: none;">
+	<b><button class = "botoncito_lindo"  onclick="show_wea('TA_7')"> &nbsp+&nbsp </button> MA5503-1</b> Introduction to symbolic dynamics.<div id="TA_7" class="abstract", style="display: none;">
 <dt class="listita_abstract"> Webpage: </dt>  <dd> <a href="https://www.u-cursos.cl/ingenieria/2013/2/MA5503/1/">Click here.</a> </dd>
 <dt class="listita_abstract"> Institution: </dt>  <dd> Universidad de Chile.</dd>
 <dt class="listita_abstract"> Term: </dt>  <dd> Spring.</dd>
 <dt class="listita_abstract"> Language: </dt>  <dd> English.</dd>
 </div>
-	<b><button class = "botoncito_lindo"  onclick="show_wea('TA_6')"> &nbsp+&nbsp </button> MA4006-1</b> Combinatorics.<br>
-	<div id="TA_6" class="abstract", style="display: none;">
+	<b><button class = "botoncito_lindo"  onclick="show_wea('TA_6')"> &nbsp+&nbsp </button> MA4006-1</b> Combinatorics.<div id="TA_6" class="abstract", style="display: none;">
 <dt class="listita_abstract"> Webpage: </dt>  <dd> <a href="https://www.u-cursos.cl/ingenieria/2013/1/MA4006/1/">Click here.</a> </dd>
 <dt class="listita_abstract"> Institution: </dt>  <dd> Universidad de Chile.</dd>
 <dt class="listita_abstract"> Term: </dt>  <dd> Autumn.</dd>
 <dt class="listita_abstract"> Language: </dt>  <dd> Spanish.</dd>
 </div>
-	<b><button class = "botoncito_lindo"  onclick="show_wea('TA_5')"> &nbsp+&nbsp </button> MA5401-1</b> Information theory.<br>
-	<div id="TA_5" class="abstract", style="display: none;">
+	<b><button class = "botoncito_lindo"  onclick="show_wea('TA_5')"> &nbsp+&nbsp </button> MA5401-1</b> Information theory.<div id="TA_5" class="abstract", style="display: none;">
 <dt class="listita_abstract"> Webpage: </dt>  <dd> <a href="https://www.u-cursos.cl/ingenieria/2012/2/MA5401/1/">Click here.</a> </dd>
 <dt class="listita_abstract"> Institution: </dt>  <dd> Universidad de Chile.</dd>
 <dt class="listita_abstract"> Term: </dt>  <dd> Autumn.</dd>
 <dt class="listita_abstract"> Language: </dt>  <dd> Spanish.</dd>
 </div>
 
-<br>
-
-<dt class="listita_bonita">2012</dt><br><br>
-	
-	<b><button class = "botoncito_lindo"  onclick="show_wea('TA_4')"> &nbsp+&nbsp </button> IN4221-1</b> Game theory.<br>
-	<div id="TA_4" class="abstract", style="display: none;">
+<dt class="listita_bonita">2012</dt>
+<b><button class = "botoncito_lindo"  onclick="show_wea('TA_4')"> &nbsp+&nbsp </button> IN4221-1</b> Game theory.<div id="TA_4" class="abstract", style="display: none;">
 <dt class="listita_abstract"> Webpage: </dt>  <dd> <a href="https://www.u-cursos.cl/ingenieria/2012/2/IN4221/1/">Click here.</a> </dd>
 <dt class="listita_abstract"> Institution: </dt>  <dd> Universidad de Chile.</dd>
 <dt class="listita_abstract"> Term: </dt>  <dd> Spring.</dd>
 <dt class="listita_abstract"> Language: </dt>  <dd> Spanish.</dd>
 </div>
 
-<br>
-
-<dt class="listita_bonita">2011</dt><br><br>
-	
-	<b><button class = "botoncito_lindo"  onclick="show_wea('TA_3')"> &nbsp+&nbsp </button> MA2601-6</b> Ordinary differential equations.<br>
-	<div id="TA_3" class="abstract", style="display: none;">
+<dt class="listita_bonita">2011</dt>
+<b><button class = "botoncito_lindo"  onclick="show_wea('TA_3')"> &nbsp+&nbsp </button> MA2601-6</b> Ordinary differential equations.<div id="TA_3" class="abstract", style="display: none;">
 <dt class="listita_abstract"> Webpage: </dt>  <dd> <a href="https://www.u-cursos.cl/ingenieria/2011/1/MA2601/6/">Click here.</a> </dd>
 <dt class="listita_abstract"> Institution: </dt>  <dd> Universidad de Chile.</dd>
 <dt class="listita_abstract"> Term: </dt>  <dd> Autumn.</dd>
 <dt class="listita_abstract"> Language: </dt>  <dd> Spanish.</dd>
 </div>
-	<b><button class = "botoncito_lindo"  onclick="show_wea('TA_2')"> &nbsp+&nbsp </button> MA2601-3</b> Ordinary differential equations.<br>
-	<div id="TA_2" class="abstract", style="display: none;">
+	<b><button class = "botoncito_lindo"  onclick="show_wea('TA_2')"> &nbsp+&nbsp </button> MA2601-3</b> Ordinary differential equations.<div id="TA_2" class="abstract", style="display: none;">
 <dt class="listita_abstract"> Webpage: </dt>  <dd> <a href="https://www.u-cursos.cl/ingenieria/2011/1/MA2601/3/">Click here.</a> </dd>
 <dt class="listita_abstract"> Institution: </dt>  <dd> Universidad de Chile.</dd>
 <dt class="listita_abstract"> Term: </dt>  <dd> Autumn.</dd>
 <dt class="listita_abstract"> Language: </dt>  <dd> Spanish.</dd>
 </div>
 
-<br>
-
-<dt class="listita_bonita">2010</dt><br><br>
-
-	<b><button class = "botoncito_lindo"  onclick="show_wea('TA_1')"> &nbsp+&nbsp </button> MA1102-3</b> Linear Algebra.<br>
-	<div id="TA_1" class="abstract", style="display: none;">
+<dt class="listita_bonita">2010</dt>
+<b><button class = "botoncito_lindo"  onclick="show_wea('TA_1')"> &nbsp+&nbsp </button> MA1102-3</b> Linear Algebra.<div id="TA_1" class="abstract", style="display: none;">
 <dt class="listita_abstract"> Webpage: </dt>  <dd> <a href="https://www.u-cursos.cl/ingenieria/2010/2/MA1102/3/">Click here.</a> </dd>
 <dt class="listita_abstract"> Institution: </dt>  <dd> Universidad de Chile.</dd>
 <dt class="listita_abstract"> Term: </dt>  <dd> Spring.</dd>
@@ -531,26 +1152,14 @@ function show_wea(r) {
 
 e your comments here -->
 
-<br>
+<img class="figura_final" src="img/Pinturas/matematoso.jpg" alt="Self-portrait in acrylic">
 
-   
-</div>
+    <p id="fecha_actual"></p>
+  </main>
 
-<br><br>
-
-<p class="centrar"><img src="img/Pinturas/matematoso.jpg" width= "60%" height="60%" alt = " "/></p>
-<br><br>
-<p id ="fecha_actual"></p>
-<script>
-var d = new Date(document.lastModified); 
-document.getElementById("fecha_actual").innerHTML = 'Last modified on '+ d;
-</script>
-</div>
-
-
+  <script>
+    document.getElementById("fecha_actual").textContent =
+      "Last modified on " + new Date(document.lastModified).toLocaleDateString();
+  </script>
 </body>
 </html>
-
-
-
-

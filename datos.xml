@@ -1,0 +1,718 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Base de datos local del sitio.  Editar a mano y luego correr:
+      python3 generar.py
+  que reescribe las secciones marcadas de talks.html y teaching.html.
+  Las entradas se muestran en el orden en que aparecen aqui.
+-->
+<data>
+
+  <talks>
+    <talk year="2026" month="October">
+      <title>Thompson's F is nonamenable</title>
+      <where>Seminario "compartamos lo que sabemos de grupos", U. de Chile, Santiago, Chile</where>
+    </talk>
+    <talk year="2026" month="September">
+      <title>Extraterrestrial groups 👽</title>
+      <where>Dynamical Systems Seminar, Jagiellonian University, Kraków, Poland</where>
+      <link label="PDF" href="archivos/talks/talk_2026_UFO_krakow.pdf"/>
+    </talk>
+    <talk year="2026" month="June">
+      <title>Dinámica simbólica: autosimulación y extraterrestres</title>
+      <where>Coloquio de matemáticas, PUC, Chile</where>
+      <link label="PDF" href="archivos/talks/talk_2026_extraterrestrial_groups.pdf"/>
+    </talk>
+    <talk year="2026" month="June">
+      <title>Extraterrestrial groups 👽</title>
+      <where>Dyadisc 9, St. Valérie sur Somme, France</where>
+      <link label="PDF" href="archivos/talks/talk_2026_coloquioPUC.pdf"/>
+    </talk>
+    <talk year="2026" month="April">
+      <title>Un enfoque aritmético para la construcción de embaldosados aperiódicos</title>
+      <where>Coloquio las Palmeras, U. de Chile.</where>
+    </talk>
+    <talk year="2025" month="November">
+      <title>Recetas de cocina para embaldosar el plano Euclidiano</title>
+      <where>Pontificia universidad católica de Chile</where>
+      <link label="PDF" href="archivos/talks/talk_2025_puc_divulgacion.pdf"/>
+    </talk>
+    <talk year="2025" month="November">
+      <title>Computable dynamics</title>
+      <where>Tata institute for fundamental research, Bangalore, India</where>
+    </talk>
+    <talk year="2025" month="November">
+      <title>Percolation and cellular automata</title>
+      <where>Tata institute for fundamental research, Bangalore, India</where>
+    </talk>
+    <talk year="2025" month="November">
+      <title>Sofic groups</title>
+      <where>Tata institute for fundamental research, Bangalore, India</where>
+    </talk>
+    <talk year="2025" month="September">
+      <title>Límites inversos de subshifts efectivos</title>
+      <where>Seminario de sistemas dinámicos de Santiago</where>
+    </talk>
+    <talk year="2025" month="August">
+      <title>Grupos extraterrestres</title>
+      <where>Seminario "compartamos lo que sabemos de grupos", UChile, Santiago, Chile</where>
+    </talk>
+    <talk year="2025" month="July">
+      <title>Inverse limits of effective subshifts</title>
+      <where>Dyadisc 8, Amiens, France</where>
+    </talk>
+    <talk year="2025" month="July">
+      <title>The automorphism group of a strongly irreducible subshift</title>
+      <where>Séminaire SymPA, Lamfa, Amiens, France</where>
+    </talk>
+    <talk year="2025" month="May">
+      <title>Dinámica calculable y aplicaciones</title>
+      <where>Coloquio del Departamento de Ingeniería Matemática, U. de Chile</where>
+    </talk>
+    <talk year="2025" month="April">
+      <title>Cellular automata and percolation in groups</title>
+      <where>Seminario de probabilidades de Chile</where>
+      <link label="VIDEO" href="https://youtu.be/NYkBTKHYfk0?si=5BfEIlUiM8uziF62"/>
+    </talk>
+    <talk year="2025" month="March">
+      <title>El grupo de automorfismos de un subshift</title>
+      <where>Seminario de sistemas dinámicos de Santiago</where>
+    </talk>
+    <talk year="2025" month="March">
+      <title>El grupo de automorfismos de un subshift</title>
+      <where>Instituto de matemáticas de Talca</where>
+    </talk>
+    <talk year="2025" month="March">
+      <title>Triangulaciones del cuadrado con área uniforme</title>
+      <where>USACH</where>
+      <link label="VIDEO" href="https://drive.google.com/file/d/1BxNIwAj41knJrOftbUCV34gsGbSJ6Gaz/view?usp=sharing"/>
+    </talk>
+    <talk year="2024" month="December">
+      <title>Cellular automata and percolation in groups</title>
+      <where>SOMACHI</where>
+    </talk>
+    <talk year="2024" month="October">
+      <title>Dos técnicas para probar teoremas en grupos</title>
+      <where>Seminario "compartamos lo que sabemos de grupos", USACH, Santiago, Chile</where>
+    </talk>
+    <talk year="2024" month="October">
+      <title>Embaldosados aperiódicos</title>
+      <where>Coloquio DMCC, USACH</where>
+    </talk>
+    <talk year="2024" month="September">
+      <title>Cellular automata and percolation in groups</title>
+      <where>Seminario de sistemas dinámicos de Santiago</where>
+    </talk>
+    <talk year="2024" month="June">
+      <title>Self-simulable groups</title>
+      <where>Groups of Dynamical Origin workshop, Los Angeles, USA</where>
+    </talk>
+    <talk year="2024" month="May">
+      <title>Soficity of free extensions of effective subshifts</title>
+      <where>Dynamics on zero-dimensional spaces: new connections, Lorentz centre, Leiden, Netherlands</where>
+    </talk>
+    <talk year="2024" month="April">
+      <title>Como decorar una cocina con matemáticas</title>
+      <where>FUNDAPROMAT Panamá (virtual)</where>
+      <link label="PDF" href="archivos/talks/talk_2024_Panama.pdf"/>
+    </talk>
+    <talk year="2023" month="December">
+      <title>Como decorar una cocina con matemáticas</title>
+      <where>SOMACHI, Festival de matemáticas</where>
+      <link label="PDF" href="archivos/talks/talk_2024_Panama.pdf"/>
+    </talk>
+    <talk year="2023" month="October">
+      <title>Extensiones libres de subshifts</title>
+      <where>Seminario de sistemas dinámicos de Santiago</where>
+    </talk>
+    <talk year="2023" month="October">
+      <title>Sturmian configurations through asymptotic pairs</title>
+      <where>Brin Mathematics Research Center, Maryland, USA</where>
+      <link label="PDF" href="archivos/talks/talk_2023_brinmc.pdf"/>
+    </talk>
+    <talk year="2023" month="August">
+      <title>Entropía en sistemas dinámicos</title>
+      <where>Jornada de postgrado, USACH, Santiago</where>
+      <link label="PDF" href="archivos/talks/talk_2023_vipo.pdf"/>
+    </talk>
+    <talk year="2023" month="March">
+      <title>Self-simulable groups</title>
+      <where>Dyadisc 5, Liège, Belgium (virtual)</where>
+      <link label="PDF" href="archivos/talks/talk_2023_dyadisc.pdf"/>
+    </talk>
+    <talk year="2022" month="December">
+      <title>Pares asintóticos indistinguibles</title>
+      <where>Somachi, Chile</where>
+      <link label="PDF" href="archivos/talks/talk_2022_somachi.pdf"/>
+    </talk>
+    <talk year="2022" month="December">
+      <title>Self-simulable groups</title>
+      <where>Group Actions: Dynamics, Measure, Topology, Munster, Germany</where>
+      <link label="PDF" href="archivos/talks/talk_2022_munster.pdf"/>
+    </talk>
+    <talk year="2022" month="November">
+      <title>Insdistinguishability and multidimensional Sturmian configurations</title>
+      <where>Combinatorics on Words seminar (virtual)</where>
+      <link label="PDF" href="archivos/talks/talk_2022_COW.pdf"/>
+    </talk>
+    <talk year="2022" month="November">
+      <title>The Lanford-Ruelle theorem for actions of sofic groups</title>
+      <where>UT Groups &amp; Dynamics (virtual)</where>
+      <link label="PDF VIDEO" href="archivos/talks/talk_2022_texas.pdf"/>
+    </talk>
+    <talk year="2022" month="June">
+      <title>Indistinguishability and multidimensional Sturmian configurations</title>
+      <where>Dyadisc, Liège (virtual)</where>
+      <link label="PDF" href="archivos/talks/talk_2022_dyadisc.pdf"/>
+    </talk>
+    <talk year="2022" month="May">
+      <title>Formalismo termodinámico en grupos sóficos</title>
+      <where>Seminario de sistemas dinámicos de Santiago</where>
+      <link label="PDF" href="archivos/talks/talk_2022_LRsofic.pdf"/>
+    </talk>
+    <talk year="2022" month="March">
+      <title>Pares asintóticos indistinguibles</title>
+      <where>Seminario de álgebra de Guadalajara (virtual)</where>
+      <link label="VIDEO" href="https://www.youtube.com/watch?v=kbHQARqRlsc"/>
+    </talk>
+    <talk year="2021" month="October">
+      <title>Self-simulable groups</title>
+      <where>UT Groups &amp; Dynamics (virtual)</where>
+      <link label="PDF VIDEO" href="archivos/talks/talk_2021_selmuble_UTGD.pdf"/>
+    </talk>
+    <talk year="2021" month="September">
+      <title>Effective dynamics</title>
+      <where>UT Groups &amp; Dynamics (virtual)</where>
+      <link label="PDF VIDEO" href="archivos/talks/talk_2021_effective_UTGD.pdf"/>
+    </talk>
+    <talk year="2021" month="April">
+      <title>Self-simulable groups</title>
+      <where>Séminaire TEICH Marseille (virtual)</where>
+      <link label="PDF" href="archivos/talks/talk_2021_teich.pdf"/>
+    </talk>
+    <talk year="2020" month="October">
+      <title>Acciones calculables de grupos y su dinámica</title>
+      <where>Seminario de Grupos y Geometría (virtual)</where>
+      <link label="PDF" href="archivos/talks/talk_2020_groupsgeometry.pdf"/>
+    </talk>
+    <talk year="2020" month="June">
+      <title>On the relation between topological entropy and asymptotic pairs</title>
+      <where>Seminario de sistemas dinámicos de Santiago (virtual)</where>
+      <link label="PDF" href="archivos/talks/talk_2020_santiago.pdf"/>
+    </talk>
+    <talk year="2020" month="May">
+      <title>Topological Markov properties</title>
+      <where>One day online session for symbolic dynamics (virtual)</where>
+      <link label="PDF VIDEO" href="archivos/talks/talk_2020_Brynaconf.pdf"/>
+    </talk>
+    <talk year="2020" month="March">
+      <title>Sobre la relación entre entropía topológica y parejas asintóticas</title>
+      <where>Coloquio UNAM, Mexico city, Mexico</where>
+      <link label="VIDEO" href="https://www.youtube.com/watch?v=zoypCk_eJk0&amp;feature=youtu.be"/>
+    </talk>
+    <talk year="2020" month="February">
+      <title>The domino problem for surface groups</title>
+      <where>Journées de Combinatoire de Bordeaux</where>
+      <link label="PDF" href="archivos/talks/talk_2020_JCB.pdf"/>
+    </talk>
+    <talk year="2019" month="May">
+      <title>Topological entropies of subshifts of finite type in countable amenable groups</title>
+      <where>Symbolic Dynamical Systems, Oaxaca, Mexico</where>
+      <link label="PDF VIDEO" href="archivos/talks/talk_2019_oaxaca.pdf"/>
+    </talk>
+    <talk year="2018" month="December">
+      <title>The domino problem for word-hyperbolic groups</title>
+      <where>Conference on Computability, Complexity and Randomness, Santiago, Chile</where>
+      <link label="PDF" href="archivos/talks/talk_2018_ccr.pdf"/>
+    </talk>
+    <talk year="2018" month="October">
+      <title>The Dobrushin Lanford Ruelle theorem on steroids</title>
+      <where>UBC probability seminar, Vancouver, Canada</where>
+      <link label="PDF" href="archivos/talks/talk_2018_UBC.pdf"/>
+    </talk>
+    <talk year="2018" month="March">
+      <title>A strongly aperiodic SFT in the Grigorchuk group</title>
+      <where>Algorithmic questions in Dynamical systems, Toulouse, France</where>
+      <link label="PDF" href="archivos/talks/talk_2018_toulouse.pdf"/>
+    </talk>
+    <talk year="2017" month="July">
+      <title>A strongly aperiodic SFT in the Grigorchuk group</title>
+      <where>Pingree Park, Colorado, USA</where>
+      <link label="PDF" href="archivos/talks/talk_2017_pingree.pdf"/>
+    </talk>
+    <talk year="2017" month="June">
+      <title>Shift spaces on groups: computability and dynamics</title>
+      <where>PhD thesis defense</where>
+      <link label="PDF" href="archivos/talks/talk_2017_defense.pdf"/>
+    </talk>
+    <talk year="2017" month="June">
+      <title>Realizability of non-expansive dynamics and applications</title>
+      <where>Dyadisc, Amiens, France</where>
+      <link label="PDF" href="archivos/talks/talk_2017_amiens.pdf"/>
+    </talk>
+    <talk year="2017" month="May">
+      <title>Symbolic dynamics and simulation theorems</title>
+      <where>Séminaire Automata IRIF, Paris, France</where>
+      <link label="PDF" href="archivos/talks/talk_2017_irif.pdf"/>
+    </talk>
+    <talk year="2017" month="April">
+      <title>Strongly aperiodic subshifts in countable groups</title>
+      <where>Séminaire Ernest, Marseille, France</where>
+      <link label="PDF" href="archivos/talks/talk_2017_ernest.pdf"/>
+    </talk>
+    <talk year="2017" month="March">
+      <title>Strongly aperiodic subshifts in countable groups</title>
+      <where>Séminaire de combinatoire et théorie des nombres, Lyon, France</where>
+      <link label="PDF" href="archivos/talks/talk_2017_doua.pdf"/>
+    </talk>
+    <talk year="2017" month="March">
+      <title>The torsion problem for the automorphism group of a full Z^d-shift and its topological fullgroup</title>
+      <where>Wandering Seminar, Wrocław, Poland</where>
+      <link label="PDF" href="archivos/talks/talk_2017_wroclaw.pdf"/>
+    </talk>
+    <talk year="2016" month="December">
+      <title>The group of reversible Turing machines and the torsion problem for $Aut(A^{Z^d})$ and related topological fullgroups</title>
+      <where>CMM, Santiago, Chile</where>
+      <link label="PDF" href="archivos/talks/talk_2016_cmm.pdf"/>
+    </talk>
+    <talk year="2016" month="June">
+      <title>The domino problem for self-similar structures</title>
+      <where>CIE, Paris, France</where>
+      <link label="PDF" href="archivos/talks/talk_2016_cie.pdf"/>
+    </talk>
+    <talk year="2016" month="June">
+      <title>The group of reversible Turing machines</title>
+      <where>AUTOMATA, Zurich, Switzerland</where>
+      <link label="PDF" href="archivos/talks/talk_2016_automata.pdf"/>
+    </talk>
+    <talk year="2016" month="May">
+      <title>Une courte preuve de l'existence des subshifts fortement apériodiques sur les groupes dénombrables</title>
+      <where>Interactions, ENS de Lyon, France</where>
+      <link label="PDF" href="archivos/talks/talk_2016_interactions.pdf"/>
+    </talk>
+    <talk year="2016" month="March">
+      <title>Que pensent les mosaïques de la monotonie ?</title>
+      <where>Séminaire détente matématique, ENS de Lyon, France</where>
+      <link label="PDF" href="archivos/talks/talk_2016_detente.pdf"/>
+    </talk>
+    <talk year="2016" month="January">
+      <title>A short proof of the existence of non-empty strongly aperiodic subshifts over {0,1} in countable groups</title>
+      <where>Séminaire LAMA, Chambéry</where>
+      <link label="PDF" href="archivos/talks/talk_2016_lama.pdf"/>
+    </talk>
+    <talk year="2015" month="December">
+      <title>A short proof of the existence of non-empty strongly aperiodic subshifts over {0,1} in countable groups</title>
+      <where>Université d'Amiens, France</where>
+      <link label="PDF" href="archivos/talks/talk_2015_amiens.pdf"/>
+    </talk>
+    <talk year="2015" month="November">
+      <title>The domino problem for structures between Z and Z^2</title>
+      <where>Université Paris-Est Creteil, France.</where>
+      <link label="PDF" href="archivos/talks/talk_2015_parisest.pdf"/>
+    </talk>
+    <talk year="2015" month="October">
+      <title>The domino problem for structures between Z and Z^2</title>
+      <where>University of Turku, Finland</where>
+      <link label="PDF" href="archivos/talks/talk_2015_turku.pdf"/>
+    </talk>
+    <talk year="2015" month="October">
+      <title>Subshifts in groups: From square-free words on graphs to aperiodic subshifts</title>
+      <where>Séminaire Combinatoire et Algorithmes de Rouen, France</where>
+      <link label="PDF" href="archivos/talks/talk_2015_rouen.pdf"/>
+    </talk>
+    <talk year="2015" month="April">
+      <title>Effectiveness and aperiodicity of subshifts</title>
+      <where>Journées Calculabilitées, Fontainebleau, France</where>
+      <link label="PDF" href="archivos/talks/talk_2015_calculabilites.pdf"/>
+    </talk>
+    <talk year="2014" month="November">
+      <title>Effectiveness in finitely generated groups</title>
+      <where>LIAFA (now IRIF), Paris, France</where>
+      <link label="PDF" href="archivos/talks/talk_2014_liafa.pdf"/>
+    </talk>
+  </talks>
+
+  <minicourses>
+    <minicourse year="2026">
+      <title>Universality of subshifts of finite type for groups</title>
+      <event href="https://joaquinbrum-ux.github.io/web-workshop/">Workshop on group dynamics</event>
+      <where>Universidad de la República, Montevideo, Uruguay</where>
+      <link label="Lecture notes" href="archivos/minicourses/minicourse-selfsimulable.pdf"/>
+    </minicourse>
+    <minicourse year="2026">
+      <title>Universality of subshifts of finite type for groups</title>
+      <event href="https://kmsuj.matinf.uj.edu.pl/workshop/en/">XXVII International Workshop for Young Mathematicians</event>
+      <where>Jagiellonian University, Kraków, Poland</where>
+      <link label="Lecture notes" href="archivos/minicourses/minicourse-selfsimulable.pdf"/>
+    </minicourse>
+    <minicourse year="2025">
+      <title>Autómatas celulares y grupos</title>
+      <event>XCIII encuentro SOMACHI</event>
+      <where>Vicuña, Chile</where>
+    </minicourse>
+    <minicourse year="2025">
+      <title>Autómatas celulares y grupos</title>
+      <event href="https://dme2.ufro.cl/gcdycom25/">Encuentro de Geometría Compleja y Dinámica Holomorfa-Aritmética</event>
+      <where>UFRO, Temuco, Chile</where>
+    </minicourse>
+    <minicourse year="2018">
+      <title>Dinámica simbólica sobre los grupos</title>
+      <event href="https://www.normalesup.org/~cornulier/me18_main.htm">Escuela de invierno en grupos y dinámica</event>
+      <where>UNAM, Ciudad de México, México</where>
+      <link label="Slides 1" href="archivos/talks/2018_escuelamexico1.pdf"/>
+      <link label="Slides 2" href="archivos/talks/2018_escuelamexico2.pdf"/>
+      <link label="Slides 3" href="archivos/talks/2018_escuelamexico3.pdf"/>
+      <link label="Slides 4" href="archivos/talks/2018_escuelamexico4.pdf"/>
+    </minicourse>
+  </minicourses>
+
+  <courses>
+    <course year="2026" term="Spring">
+      <title>Teoría de Probabilidades</title>
+      <program>Licenciatura en Matemática - UChile</program>
+      <link label="U-Cursos" href="https://www.u-cursos.cl/ciencias/2026/2/MCLM630/1"/>
+    </course>
+    <course year="2026" term="Fall">
+      <title>Álgebra I (doctorado)</title>
+      <program>Doctorado en Matemática - UChile</program>
+      <link label="U-Cursos" href="https://www.u-cursos.cl/ciencias/2026/1/POST0090/1/"/>
+    </course>
+    <course year="2025" term="Spring">
+      <title>Análisis II (teoría de medida)</title>
+      <program>Ingeniería Matemática - USACH</program>
+      <link label="Classroom" href="https://classroom.google.com/u/1/c/NzkxOTMzNTg3OTkz"/>
+    </course>
+    <course year="2025" term="Fall">
+      <title>Álgebra Abstracta</title>
+      <program>Ingeniería Matemática - USACH</program>
+      <link label="Classroom" href="https://classroom.google.com/c/NzUyNjY1OTgxNjYy?cjc=jcfgzpc6"/>
+    </course>
+    <course year="2025" term="Fall">
+      <title>Teoría de grupos y autómatas celulares</title>
+      <program>Doctorado en Matemática - USACH</program>
+      <link label="Classroom" href="https://classroom.google.com/c/NzU5NTM2MTc1MzQ4?cjc=ozs3llnv"/>
+    </course>
+    <course year="2024" term="Spring">
+      <title>Análisis funcional</title>
+      <program>Ingeniería Matemática - USACH</program>
+      <link label="Classroom" href="https://classroom.google.com/c/Njg1ODc5MzcxNDAx?cjc=ncx7uj2"/>
+    </course>
+    <course year="2024" term="Spring">
+      <title>Análisis II (medida + funcional)</title>
+      <program>Doctorado en Matemática - USACH</program>
+      <link label="Classroom" href="https://classroom.google.com/c/NzAzOTI4OTk0MTk3?cjc=dxidfx7"/>
+    </course>
+    <course year="2024" term="Fall">
+      <title>Análisis funcional</title>
+      <program>Ingeniería Matemática - USACH</program>
+      <link label="Classroom" href="https://classroom.google.com/c/NjU5MTA5NTMyODI4?cjc=2hysfqc"/>
+    </course>
+    <course year="2023" term="Spring">
+      <title>Análisis II (teoría de medida)</title>
+      <program>Ingeniería Matemática - USACH</program>
+      <link label="Classroom" href="https://classroom.google.com/c/NTg5MTAxMzI5MTkx?cjc=xwhzaqj"/>
+    </course>
+    <course year="2023" term="Fall">
+      <title>Grupos hiperbólicos</title>
+      <program>Doctorado en Matemática - USACH</program>
+      <link label="Classroom" href="https://classroom.google.com/c/NjAyNjk3MjY1OTA0?cjc=evqirks"/>
+    </course>
+    <course year="2023" term="Fall">
+      <title>Análisis I (espacios métricos)</title>
+      <program>Ingeniería Matemática - USACH</program>
+      <link label="Classroom" href="https://classroom.google.com/c/NTk4NjgzMDk4NDMw?cjc=yzpmdre"/>
+    </course>
+    <course year="2022" term="Spring">
+      <title>Análisis II (teoría de medida)</title>
+      <program>Ingeniería Matemática - USACH</program>
+      <link label="Classroom" href="https://classroom.google.com/c/NTM3NDg3MzMwOTkw?cjc=g7rxsxe"/>
+    </course>
+    <course year="2022" term="Fall">
+      <title>Sistemas dinámicos y dinámica simbólica</title>
+      <program>Magíster en Matemática - USACH</program>
+      <link label="Classroom" href="https://classroom.google.com/c/NDgyNTY0NjM2ODQ1?cjc=bdt6sg2"/>
+    </course>
+    <course year="2022" term="Fall">
+      <title>Álgebra Abstracta</title>
+      <program>Ingeniería Matemática - USACH</program>
+      <link label="Classroom" href="https://classroom.google.com/c/NDc5NzMxNDQ4MTI0?cjc=43emwhj"/>
+    </course>
+    <course year="2021" term="Spring">
+      <title>Dinámica simbólica y problemas algorítmicos en grupos</title>
+      <program>Doctorado en Matemática - USACH</program>
+    </course>
+    <course year="2021" term="Spring">
+      <title>Análisis II (teoría de medida)</title>
+      <program>Ingeniería Matemática - USACH</program>
+    </course>
+    <course year="2021" term="Fall">
+      <title>Teoría ergódica de acciones de grupos</title>
+      <program>Doctorado en Matemática - USACH</program>
+    </course>
+    <course year="2021" term="Fall">
+      <title>Análisis I (espacios métricos)</title>
+      <program>Ingeniería Matemática - USACH</program>
+    </course>
+    <course year="2020" term="Spring">
+      <title>Álgebra III (álgebra lineal)</title>
+      <program>Ingeniería Matemática - USACH</program>
+    </course>
+    <course year="2020" term="Fall">
+      <title>Análisis I (espacios métricos)</title>
+      <program>Ingeniería Matemática - USACH</program>
+    </course>
+    <course year="2018" term="Winter">
+      <title>Differential Calculus with applications to economy and social sciences</title>
+      <program>University of British Columbia</program>
+      <link label="Webpage" href="cursos/math104/index.html"/>
+    </course>
+    <course year="2018" term="Winter">
+      <title>Calculus III</title>
+      <program>University of British Columbia</program>
+      <link label="Webpage" href="cursos/math200/index.html"/>
+    </course>
+    <course year="2018" term="Summer">
+      <title>Multivariable Calculus</title>
+      <program>University of British Columbia</program>
+      <link label="Webpage" href="cursos/math253_2018S/index.html"/>
+    </course>
+    <course year="2017" term="Winter">
+      <title>Multivariable Calculus</title>
+      <program>University of British Columbia</program>
+      <link label="Webpage" href="cursos/math253_2017W/index.html"/>
+    </course>
+  </courses>
+
+  <assistantships>
+    <assistantship year="2019" term="Winter">
+      <title>Coloration Informatique</title>
+      <program>Université de Bordeaux</program>
+      <notes>L1 course TP: programming a game from scratch in Python</notes>
+    </assistantship>
+    <assistantship year="2017" term="Winter">
+      <title>Logic</title>
+      <program>ENS de Lyon</program>
+      <notes>L3 course TD: Propositional calculus, completeness theorems, Peano artihmetic, Godel's theorems, ZFC set theory.</notes>
+    </assistantship>
+    <assistantship year="2016" term="Summer">
+      <title>Optimization</title>
+      <program>ENS de Lyon</program>
+      <notes>M1 course TD: Linear optimization.</notes>
+    </assistantship>
+    <assistantship year="2016" term="Summer">
+      <title>Foundations of informatics</title>
+      <program>ENS de Lyon</program>
+      <notes>L3 course TD: Regular, context free and decidable languages. Complexity theory.</notes>
+    </assistantship>
+    <assistantship year="2016" term="Winter">
+      <title>C++ programming</title>
+      <program>Université Lyon 1</program>
+      <notes>L1 course TD: Introduction to programming in C++</notes>
+    </assistantship>
+    <assistantship year="2015" term="Summer">
+      <title>Architecture</title>
+      <program>Université Lyon 1</program>
+      <notes>L2 course TP: introduction to computer architecture</notes>
+    </assistantship>
+    <assistantship year="2014" term="Summer">
+      <title>Competitive programming</title>
+      <program>ENS de Lyon</program>
+      <notes>L3 course TP: training for the ACM ICPC programming contest</notes>
+    </assistantship>
+    <assistantship year="2013" term="Spring">
+      <title>Estadística computacional</title>
+      <program>FCFM - Universidad de Chile</program>
+    </assistantship>
+    <assistantship year="2013" term="Spring">
+      <title>Introducción a la dinámica simbólica</title>
+      <program>FCFM - Universidad de Chile</program>
+    </assistantship>
+    <assistantship year="2013" term="Fall">
+      <title>Combinatoria</title>
+      <program>FCFM - Universidad de Chile</program>
+    </assistantship>
+    <assistantship year="2013" term="Fall">
+      <title>Teoría de la información</title>
+      <program>FCFM - Universidad de Chile</program>
+    </assistantship>
+    <assistantship year="2012" term="Spring">
+      <title>Teoría de Juegos</title>
+      <program>FCFM - Universidad de Chile</program>
+    </assistantship>
+    <assistantship year="2011" term="Fall">
+      <title>Ecuaciones diferenciales ordinarias</title>
+      <program>FCFM - Universidad de Chile</program>
+    </assistantship>
+    <assistantship year="2011" term="Fall">
+      <title>Ecuaciones diferenciales ordinarias</title>
+      <program>FCFM - Universidad de Chile</program>
+    </assistantship>
+    <assistantship year="2010" term="Spring">
+      <title>Álgebra lineal</title>
+      <program>FCFM - Universidad de Chile</program>
+    </assistantship>
+  </assistantships>
+
+  <conferences>
+    <conference from="2027-07">
+      <title>Young Measured Group Theory (YMGT)</title>
+      <href>https://indico.ijclab.in2p3.fr/event/14161/</href>
+      <where>Institut Pascal, France</where>
+    </conference>
+    <conference from="2026-10">
+      <title>Workshop on group dynamics</title>
+      <href>https://joaquinbrum-ux.github.io/web-workshop/</href>
+      <where>Montevideo, Uruguay</where>
+    </conference>
+    <conference from="2026-09">
+      <title>XXVII International Workshop for Young Mathematicians "Dynamical Systems"</title>
+      <href>https://kmsuj.matinf.uj.edu.pl/workshop/en/</href>
+      <where>Kraków, Poland</where>
+    </conference>
+    <conference from="2026-09">
+      <title>Chilean–Polish Mathematical Meeting</title>
+      <href>https://somachi-ptm.pwr.edu.pl/</href>
+      <where>Wroclaw, Poland</where>
+    </conference>
+    <conference from="2026-06">
+      <title>Dyadisc 9: Expensive Dynamics - The dynamic youth speaks out</title>
+      <href>https://dyadisc9.sciencesconf.org/</href>
+      <where>Saint-Valery-sur-Somme, France</where>
+    </conference>
+    <conference from="2026-04">
+      <title>Groups and Dynamics: Topology, Measure, and Borel Structure</title>
+      <href>https://www.mfo.de/www/activity/2616</href>
+      <where>Oberwolfach, Germany</where>
+    </conference>
+    <conference from="2025-12">
+      <title>Dynamics in patagonia</title>
+      <href>https://eventos.cmm.uchile.cl/maass60/</href>
+      <where>Puerto Natales, Chile</where>
+    </conference>
+    <conference from="2025-11">
+      <title>Encuentro de Geometría Compleja y Dinámica Holomorfa-Aritmética</title>
+      <href>https://dme2.ufro.cl/gcdycom25/</href>
+      <where>Temuco, Chile</where>
+    </conference>
+    <conference from="2025-07">
+      <title>Dyadisc 8</title>
+      <href>https://dyadisc8.sciencesconf.org/</href>
+      <where>University of Picardie Jules Verne (UPJV), Amiens, France</where>
+    </conference>
+    <conference from="2024-06">
+      <title>Groups of dynamical origin</title>
+      <href>https://aimath.org/workshops/upcoming/groupdynamorigin/</href>
+      <where>American Institute of Mathematics, Pasadena, California</where>
+    </conference>
+    <conference from="2024-05">
+      <title>Dynamics on zero-dimensional spaces: new connections</title>
+      <href>https://www.lorentzcenter.nl/dynamics-on-zero-dimensional-spaces-new-connections.html</href>
+      <where>Lorentz Center</where>
+    </conference>
+    <conference from="2024-02">
+      <title>Discrete Mathematics and Computer Science: Groups, Dynamics, Complexity, Words</title>
+      <href>https://conferences.cirm-math.fr/3007.html</href>
+      <where>CIRM</where>
+    </conference>
+    <conference from="2023-10">
+      <title>Low Complexity Dynamical Systems</title>
+      <href>https://brinmrc.umd.edu/programs/workshops/fall23/fall23-workshop-dynamics.html</href>
+      <where>Brin Mathematics Research Center</where>
+    </conference>
+    <conference from="2023-09">
+      <title>Group Actions on Cantor Sets</title>
+      <href>https://workshops.birs.ca/events/23w5044</href>
+      <where>Casa matemática Oaxaca</where>
+    </conference>
+    <conference from="2022-11">
+      <title>Group Actions: Dynamics, Measure, Topology</title>
+      <href>https://www.uni-muenster.de/IVV5WS/WebHop/user/kerrd/groupactions2022/index.html</href>
+      <where>University of Münster, Germany</where>
+    </conference>
+    <conference from="2022-11">
+      <title>School: “Combinatorial and Geometric Approaches on Dynamics”</title>
+      <href>https://eventos.cmm.uchile.cl/cgdynamics2022/</href>
+      <where>CMM, Chile</where>
+    </conference>
+    <conference from="2022-06">
+      <title>Dyadisc 5: S-adicity</title>
+      <href>https://dyadisc5.sciencesconf.org/</href>
+      <where>Université de Liège, Belgium</where>
+    </conference>
+    <conference from="2020-04">
+      <title>École de Jeunes Chercheurs en Informatique Mathématique</title>
+      <href>https://ejcim2020.sciencesconf.org/</href>
+      <where>Virtual</where>
+    </conference>
+    <conference from="2020-01">
+      <title>Fractals and Dynamics</title>
+      <href>https://sites.google.com/view/solomyak60</href>
+      <where>Bar-Ilan University, Israel</where>
+    </conference>
+    <conference from="2019-10">
+      <title>Measurable, Borel, and Topological Dynamics</title>
+      <href>https://conferences.cirm-math.fr/2080.html</href>
+      <where>CIRM, France</where>
+    </conference>
+    <conference from="2019-05">
+      <title>Symbolic Dynamical Systems</title>
+      <href>http://www.birs.ca/events/2019/5-day-workshops/19w5093</href>
+      <where>Casa Matemática Oaxaca, México</where>
+    </conference>
+    <conference from="2018-12">
+      <title>Thirteenth International Conference on Computability, Complexity and Randomness</title>
+      <href>http://www.mat-unab.cl/~ccr2018/</href>
+      <where>Universidad Andrés Bello, Santiago, Chile</where>
+    </conference>
+    <conference from="2018-03">
+      <title>Algorithmic questions in Dynamical systems</title>
+      <href>https://www.math.univ-toulouse.fr/~msablik/AlgorithmicQuestionsInDynamicalSystems.html</href>
+      <where>Université Paul Sabatier, Toulouse, France</where>
+    </conference>
+    <conference from="2018-01">
+      <title>Escuela de invierno en grupos y dinámica en México</title>
+      <href>http://www.normalesup.org/~cornulier/me18_main.htm</href>
+      <where>UNAM, Ciudad de México, México</where>
+    </conference>
+    <conference from="2017-08">
+      <title>Current Trends in Dynamical Systems and the Mathematical Legacy of Rufus Bowen</title>
+      <href>https://www.pims.math.ca/scientific-event/170730-ctdsmlrb-0</href>
+      <where>University of British Columbia, Vancouver, Canada</where>
+    </conference>
+    <conference from="2017-07">
+      <title>6th Pingree Park Dynamics Workshop: Foundations and Frontiers in Symbolic Dynamics</title>
+      <href>http://web.cs.du.edu/~rpavlov/Pingree2017/</href>
+      <where>Pingree park, Colorado, USA</where>
+    </conference>
+    <conference from="2017-03">
+      <title>Wandering seminar</title>
+      <href>http://prac.im.pwr.wroc.pl/~wandering/</href>
+      <where>Wroclaw, Poland</where>
+    </conference>
+    <conference from="2017-01">
+      <title>Dynamique symbolique, Combinatoire des mots. Calculabilité. Automates</title>
+      <href>https://fconferences.cirm-math.fr/1711.html</href>
+      <where>CIRM, Marseille, France</where>
+    </conference>
+    <conference from="2016-12">
+      <title>School on information and randomness</title>
+      <href>http://eventos.cmm.uchile.cl/ir2016/</href>
+      <where>Santiago, Chile</where>
+    </conference>
+    <conference from="2016-11">
+      <title>Combinatorics, Automata and Number Theory</title>
+      <href>http://www.cant.ulg.ac.be/cant2016/index.html</href>
+      <where>CIRM, Marseille, France</where>
+    </conference>
+    <conference from="2016-06">
+      <title>Transversal aspects of tilings</title>
+      <href>https://oleron.sciencesconf.org/</href>
+      <where>Oléron, France</where>
+    </conference>
+    <conference from="2014-12">
+      <title>Workshop on Symbolic Dynamics over Finitely Presented Groups</title>
+      <href>http://www.dim.uchile.cl/~mschraudner/SyDyGr/</href>
+      <where>Santiago, Chile</where>
+    </conference>
+  </conferences>
+
+</data>

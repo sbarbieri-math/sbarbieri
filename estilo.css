@@ -1,315 +1,655 @@
+/* =========================================================
+   Sebastián Barbieri Lemp — hoja de estilos
+   Paleta y tipografía en variables; ver :root más abajo.
+   ========================================================= */
+
+/* ---------- Tokens ---------- */
+
+:root {
+  color-scheme: light;
+
+  /* Papel y tinta */
+  --paper:      #ffffff;
+  --panel:      #fdf3dd;   /* fondo de abstracts */
+  --panel-2:    #f7e8c6;   /* fondo de bibtex */
+  --ink:        #2c2016;
+  --ink-soft:   #7a6a58;   /* etiquetas, fechas */
+  --rule:       #ead9b8;   /* líneas delgadas */
+
+  /* Naranjos */
+  --band:         #ffc23f; /* franja del encabezado */
+  --band-strong:  #ff7a00; /* menú activo */
+  --accent:       #d35f00; /* títulos de sección */
+  --accent-deep:  #a44b00; /* enlaces en texto */
+
+  /* Tipografías */
+  --serif: Charter, "Bitstream Charter", "Sitka Text", Cambria, Georgia, serif;
+  --sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+          Arial, sans-serif;
+
+  /* Medidas */
+  --measure: 52rem;
+  --gap: 1.5rem;
+}
+
+/* ---------- Base ---------- */
+
+*,
+*::before,
+*::after { box-sizing: border-box; }
+
 body,
-li,
-ol,
-ul{
-  border: 0;
+h1, h2, h3, h4,
+p, ul, ol, li, dl, dt, dd,
+figure, blockquote {
   margin: 0;
   padding: 0;
-  font-size: 100%;
-  font-family: 'Helvetica';  
+  border: 0;
 }
+
+html {
+  scroll-padding-top: 6rem;   /* para que los anclajes no queden bajo el header */
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: 1.0625rem;
+  line-height: 1.65;
+  -webkit-text-size-adjust: 100%;
+}
+
 a {
-    color: #031d30;
+  color: var(--accent-deep);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
 }
 
-/* ---------- Header ---------- */
-#movingblock{
-  background: none repeat-x scroll 4px 3px #ffc23f; 
-  position: fixed;
-  width: 100%;
-  z-index:10;
-  padding-top: 90px;
-}
-#movingblock2{
-  background: none repeat-x scroll 4px 3px #ffffff; 
-  position: fixed;
-  width: 100%;
-  z-index:11;
-}
-#header_in {
-  width: 100%;
-  max-width: 960px;
-  height: 90px;
-  margin: 0px auto;
-  position: relative; 
-}
-#header_in2 {
-  width: 100%;
-  max-width: 960px;
-  height: 90px;
-  margin: 0px auto;
-  position: relative; 
-}
-#header_in h1 {
-font-family: 'Georgia';
-  font-size: 20pt;
-  letter-spacing: 1px;
-  float: left;
-  padding-left: 5px;  
-  padding-top: 10px;  
+a:hover { text-decoration-thickness: 2px; }
+
+:focus-visible {
+  outline: 2px solid var(--band-strong);
+  outline-offset: 2px;
+  border-radius: 3px;
 }
 
-#header_in h1 a {
-    text-decoration: none; 
-    color: #111;
-    font-weight: 100; 
-}
-#header_in h1 a b { font-weight: 600;}
+img { max-width: 100%; height: auto; }
 
-      /* ----- Menu ----- */
-      
-#menu {
-  position: relative; 
-  right: 2px;  
+hr {
+  border: 0;
+  border-top: 1px solid var(--rule);
+  margin: 2.5rem 0;
 }
 
-#menu2 {
-  position: relative; 
-  right: 2px;  
-}   
-#menu ul li {
-  float: left;
-  display: inline;
+/* ---------- Encabezado ---------- */
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: var(--band);
+  border-bottom: 4px solid var(--band-strong);
+  padding-top: env(safe-area-inset-top, 0px);
 }
 
-#menu ul li2 {
-  float: right;
-  display: inline;
+.site-bar {
+  max-width: var(--measure);
+  margin: 0 auto;
+  padding: 0 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
 }
-    
-#menu ul li a {
-  text-decoration: none; 
-  font-size: 130%;
-  font-weight: 400;
-  letter-spacing: 1px;
+
+.site-name {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.7rem 0;
+  font-size: 1.25rem;
+  letter-spacing: 0.3px;
+  color: var(--ink);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.site-name img { width: 26px; height: 26px; }
+
+.site-nav ul {
+  display: flex;
+  list-style: none;
+  gap: 0.25rem;
+}
+
+.site-nav a {
   display: block;
-  
-  padding: 30px 25px 0 25px; 
-  height: 60px;
-}
-      
-  #menu ul li a:hover {
-/* color hover menu*/
-    background-color: #f99d2c;
-  }
-      
-  #menu ul li a.active {
-/* color fondo menu*/
-    background-color: #ff7a00;
-/* color letra menu*/
-    color: #f7fbff;
-    font-weight: bold;
-  }
-/* ---------- Main part ---------- */
-
-#title_top {
-    width: 100%;
-    height: 10px;
-    background-color: #ff7a00;
+  padding: 0.75rem 0.9rem;
+  font-family: var(--sans);
+  font-size: 0.95rem;
+  letter-spacing: 0.4px;
+  color: var(--ink);
+  text-decoration: none;
+  border-radius: 6px;
 }
 
-#title_top_in {
-    width: 960px;
-    margin: auto;
+.site-nav a:hover { background: rgba(0, 0, 0, 0.08); }
+
+.site-nav a.active {
+  background: var(--band-strong);
+  color: #fff;
+  font-weight: 600;
 }
 
-#title_top_in h2 {
-    border: 0;
-    margin: 0;
-    padding-top: 15px;
-    padding-bottom: 14px;
-    font-size: 280%;
-    font-weight: 200;
-    color: #f7fbff;
+@media (max-width: 640px) {
+  .site-bar { justify-content: center; gap: 0; }
+  .site-name { font-size: 1.1rem; padding-bottom: 0.3rem; }
+  .site-nav { width: 100%; overflow-x: auto; }
+  .site-nav ul { justify-content: center; }
+  .site-nav a { padding: 0.6rem 0.7rem; }
 }
 
+/* ---------- Contenido ---------- */
 
-#content {   
-    z-index:7;
-    width: 70%;
-    max-width: 940px;
-    margin: auto;
-    padding-top: 230px;
+#content,
+.content {
+  max-width: var(--measure);
+  margin: 0 auto;
+  padding: 2.5rem 1.25rem 4rem;
 }
 
-  dt {
-    float: left;
-    clear: left;
-    width: 80px;
-    text-align: right;
-    font-weight: bold;
-    color: green;
-  }
-
-
-  dd {
-    margin: 0 0 0 100px;
-    padding: 0 0 0.5em 0;
-  }
-
-h33 {
-font-family: 'Georgia';
-  font-size: 20pt;
-  letter-spacing: 1px;
-  float: left;
-  padding-left: 5px;  
-  padding-top: 10px;  
+h1 {
+  font-size: 2.1rem;
+  font-weight: 600;
+  line-height: 1.15;
+  margin: 0 0 0.5rem;
 }
 
-blockquote {display: none;}
+.page-title {
+  margin-bottom: 2rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 3px solid var(--band);
+}
 
-a.show:focus ~ blockquote {display:inline-block;}
+h2 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--accent);
+  margin: 2.5rem 0 1.25rem;
+}
 
-      /* ----- Mis modos ezpezialesz ----- */
+h2:first-child { margin-top: 0; }
 
-.mainimg {
+h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 1.75rem 0 0.5rem;
+}
+
+p { margin: 0 0 1rem; }
+
+/* Fecha de última modificación */
+#fecha_actual {
+  margin-top: 3rem;
+  font-family: var(--sans);
+  font-size: 0.8rem;
+  color: var(--ink-soft);
+  text-align: center;
+}
+
+/* ---------- Entradas (artículos, charlas, cursos) ---------- */
+
+.entry {
+  border-top: 1px solid var(--rule);
+}
+
+.entry:last-of-type { border-bottom: 1px solid var(--rule); }
+
+.entry > summary {
+  display: block;            /* flex va en .entry-row, no en summary:
+                                summary como flex container rompe en
+                                algunos navegadores */
+  padding: 0.9rem 0.5rem 0.9rem 0;
+  cursor: pointer;
+  list-style: none;          /* quita el triángulo por defecto */
+}
+
+.entry-row {
+  display: flex;
+  align-items: baseline;
+  gap: 0.9rem;
+}
+
+.entry > summary::-webkit-details-marker { display: none; }
+
+.entry > summary:hover { background: rgba(255, 194, 63, 0.16); }
+
+.entry-num {
+  flex: 0 0 2.25rem;
+  text-align: center;
+  align-self: flex-start;
+  padding: 0.1rem 0;
+  background: var(--band);
+  border-radius: 6px;
+  font-family: var(--sans);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.entry-num img { width: 15px; height: 15px; vertical-align: -2px; }
+
+/* insignias con palabras (Spring, 2026...) en vez de un numero */
+.entry-num.is-wide { flex: 0 0 4.4rem; }
+
+/* un año o encabezado entre entradas no debe pegarse a la linea de arriba */
+.entry + .subhead { margin-top: 2rem; }
+
+.subhead + .entry { border-top: 0; }
+
+.entry-text { flex: 1 1 auto; }
+
+.entry-title {
+  display: block;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.entry-meta {
+  display: block;
+  font-family: var(--sans);
+  font-size: 0.88rem;
+  color: var(--ink-soft);
+  margin-top: 0.15rem;
+}
+
+.entry-chevron {
+  flex: 0 0 auto;
+  align-self: center;
+  color: var(--ink-soft);
+  font-size: 0.75rem;
+  transition: transform 0.15s ease;
+}
+
+.entry[open] > summary .entry-chevron { transform: rotate(90deg); }
+
+@media (prefers-reduced-motion: reduce) {
+  .entry-chevron { transition: none; }
+}
+
+.entry-body {
+  background: var(--panel);
   border-radius: 10px;
-  vertical-align: top;
-  padding: 0px;
-  border-width: 0px;
-  float: right;
-  margin: 0px 0px 40px 40px;
+  padding: 1rem 1.25rem;
+  margin: 0 0 1rem 3.15rem;
 }
 
-.abstract {
-  width: 100%;
-  text-align: justify;
-  background-color: #fff0ba;
-  margin: 20px 20px 20px 0px;
-  border-radius: 10px;
+@media (max-width: 640px) {
+  .entry-body { margin-left: 0; }
+  .entry > summary { gap: 0.6rem; }
 }
 
-.inabstract {
-  text-align: justify;
-  margin-right: 50px;
+/* Lista de metadatos dentro de una entrada */
+.meta {
+  display: grid;
+  grid-template-columns: 7.5rem 1fr;
+  column-gap: 1rem;
+  row-gap: 0.35rem;
 }
 
-.inabstract2 {
-  text-align: justify;
-  margin-right: 50px;
-  background-color: #ffde6b;
-  border-radius: 10px;
-  padding-left: 20px;
-}
-
-.botoncito_lindo {
-    background-color: #ffc23f;
-    border-radius: 10px;
-    color: black;
-    padding: 5px 5px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-}
-
-.botoncito_pdf {
-    background-color: #e53b3b;
-    border-radius: 10px;
-    color: white;
-    padding: 5px 5px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-}
-
-  .listita_bonita {
-  text-align: left;
-  font-size: 20px;
-  width: 250px;
-  color: black;
-}
-  .listita_abstract {
+.meta dt {
+  font-family: var(--sans);
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--ink-soft);
   text-align: right;
- width: 80px;
- color: black;
+  padding-top: 0.25rem;
 }
 
-.centrar {
-    margin: auto;
-    text-align: center;
+.meta dd { margin: 0; }
+
+.meta dd.abstract-text { text-align: justify; }
+
+.meta dd.bibtex {
+  background: var(--panel-2);
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  overflow-x: auto;
 }
 
-.centrar2 {
-    margin: auto;
-    text-align: center;
-    font-size: 200%;
-    color: #BF6900;
+@media (max-width: 640px) {
+  .meta { grid-template-columns: 1fr; row-gap: 0.1rem; }
+  .meta dt { text-align: left; padding-top: 0.6rem; }
+  .meta dd.abstract-text { text-align: left; }
 }
 
-.student {
-    margin: auto;
-    text-align: center;
-    font-size: 150%;
-    color: #ff7a00;
+/* ---------- Tabla (charlas) ---------- */
+
+.tabla-scroll { margin: 1rem 0 2rem; }
+
+.tabla {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
 }
 
-
- /* Three image containers (use 25% for four, and 50% for two, etc) */
-.columnitas_estudiantes {
-  border-radius: 50%;
-  text-align: center;
-  float: left;
-  width: 40%;
-  padding: 30px;
+.tabla th {
+  background: var(--band);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-align: left;
+  padding: 0.55rem 0.75rem;
 }
 
-/* Clear floats after image containers */
-.filas_estudiantes::after {
-  text-align: center;
-  content: "";
-  clear: both;
-  display: table;
+.tabla th:first-child { border-radius: 8px 0 0 0; }
+.tabla th:last-child { border-radius: 0 8px 0 0; }
+
+.tabla td {
+  padding: 0.6rem 0.75rem;
+  border-top: 1px solid var(--rule);
+  vertical-align: top;
 }
 
- /* ----- Estudiantes en filas: foto a la izquierda, datos a la derecha ----- */
+.tabla tbody tr:nth-child(even) { background: var(--panel); }
+.tabla tbody tr:hover { background: rgba(255, 194, 63, 0.3); }
+
+.tabla .col-date {
+  width: 6.5rem;
+  white-space: nowrap;
+  font-family: var(--sans);
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+}
+
+.tabla .col-title { font-weight: 600; }
+
+.tabla .col-links {
+  width: 5.5rem;
+  font-family: var(--sans);
+  font-size: 0.85rem;
+}
+
+.tabla .col-links a { display: inline-block; margin-right: 0.4rem; }
+
+/* En pantallas angostas la tabla no cabe en cuatro columnas:
+   cada fila se convierte en una ficha y las etiquetas salen
+   del atributo data-label de cada celda. */
+@media (max-width: 700px) {
+  .tabla, .tabla tbody, .tabla tr, .tabla td { display: block; width: auto; }
+
+  .tabla thead { display: none; }
+
+  .tabla tbody tr,
+  .tabla tbody tr:nth-child(even) {
+    background: var(--panel);
+    border: 1px solid var(--rule);
+    border-radius: 10px;
+    padding: 0.6rem 0.9rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .tabla td {
+    border: 0;
+    padding: 0.1rem 0;
+  }
+
+  .tabla td:empty { display: none; }
+
+  .tabla td::before {
+    content: attr(data-label) ": ";
+    font-family: var(--sans);
+    font-size: 0.75rem;
+    color: var(--ink-soft);
+  }
+
+  .tabla .col-title {
+    font-size: 1.05rem;
+    line-height: 1.3;
+    margin-bottom: 0.2rem;
+  }
+
+  .tabla .col-title::before { content: none; }
+}
+
+/* ---------- Listas de enlaces (misc) ---------- */
+
+/* display:grid de .linklist le gana al hidden del navegador, asi que
+   el script no podria esconder la lista vacia sin esta regla */
+[hidden] { display: none !important; }
+
+.linklist {
+  list-style: none;
+  display: grid;
+  gap: 0.6rem;
+}
+
+.linklist li {
+  padding-left: 1rem;
+  border-left: 3px solid var(--rule);
+}
+
+.linklist li b,
+.linklist li strong { font-weight: 600; }
+
+.linklist .note {
+  font-family: var(--sans);
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+}
+
+.subhead {
+  font-family: var(--sans);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  color: var(--ink-soft);
+  margin: 2rem 0 0.75rem;
+}
+
+/* ---------- Estudiantes: foto a la izquierda, datos a la derecha ---------- */
+
 .fila_estudiante {
   display: flex;
   align-items: center;
-  padding: 20px 0px;
+  gap: 1.5rem;
+  padding: 1.25rem 0;
 }
 
-/* Linea delgada entre entradas consecutivas (no antes de la primera) */
 .fila_estudiante + .fila_estudiante {
-  border-top: 1px solid #ffde6b;
+  border-top: 1px solid var(--rule);
 }
 
 .foto_estudiante {
   flex: 0 0 15%;
   max-width: 15%;
-  box-sizing: border-box;
-  padding: 0px 30px 0px 0px;
   text-align: center;
 }
 
 .foto_estudiante img {
   width: 100%;
-  height: auto;
+  border-radius: 50%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
 }
 
-.info_estudiante {
-  flex: 1 1 auto;
-  text-align: left;
-  line-height: 1.7;
+.info_estudiante { flex: 1 1 auto; }
+
+.student {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--accent);
 }
 
-/* En pantallas angostas la foto pasa arriba y el texto abajo */
-@media (max-width: 700px) {
-  .fila_estudiante {
-    display: block;
-    text-align: center;
-  }
-  .foto_estudiante {
-    max-width: 55%;
-    margin: 0px auto 10px auto;
-    padding: 0px;
-  }
-  .info_estudiante {
-    text-align: center;
-  }
+.info_estudiante .detail {
+  display: block;
+  font-family: var(--sans);
+  font-size: 0.88rem;
+  color: var(--ink-soft);
+}
+
+@media (max-width: 640px) {
+  .fila_estudiante { display: block; text-align: center; }
+  .foto_estudiante { max-width: 45%; margin: 0 auto 0.75rem; }
+}
+
+/* ---------- Apuntes de curso ---------- */
+
+.notes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+  gap: 1.5rem;
+}
+
+.note-card {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: var(--ink);
+  padding: 1rem;
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  background: var(--panel);
+}
+
+.note-card:hover { border-color: var(--band-strong); }
+
+.note-card img { border-radius: 6px; }
+
+.note-card span {
+  display: block;
+  margin-top: 0.75rem;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+/* ---------- Página de inicio ---------- */
+
+.hero {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.hero img {
+  flex: 0 0 34%;
+  max-width: 34%;
+  border-radius: 12px;
+}
+
+.hero-text { flex: 1 1 auto; }
+
+.hero-role { font-size: 1.15rem; }
+
+@media (max-width: 640px) {
+  .hero { display: block; }
+  .hero img { max-width: 55%; margin: 0 auto 1.25rem; display: block; }
+}
+
+.iconrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.75rem;
+  margin: 2rem 0;
+}
+
+.iconrow img { width: 48px; height: 48px; }
+
+/* ---------- Galería ---------- */
+
+.painting { margin: 0 0 3rem; text-align: center; }
+
+.painting img { border-radius: 10px; }
+
+.painting figcaption {
+  margin-top: 0.75rem;
+  font-family: var(--sans);
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+}
+
+.painting .title {
+  display: block;
+  font-family: var(--serif);
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+/* ---------- Tablas embebidas (Google Sheets) ---------- */
+
+.sheet {
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 1rem 0 2rem;
+}
+
+.sheet iframe {
+  display: block;
+  width: 100%;
+  border: 0;
+}
+
+/* ---------- Imágenes decorativas de pie de página ---------- */
+
+.figura_final {
+  display: block;
+  margin: 3rem auto 0;
+  max-width: 60%;
+}
+
+@media (max-width: 640px) {
+  .figura_final { max-width: 85%; }
+}
+
+/* ---------- Clases antiguas (compatibilidad) ---------- */
+/* Se mantienen para el contenido aún comentado en talks.html y
+   teaching.html; se pueden borrar cuando ya no se usen.          */
+
+.botoncito_lindo,
+.botoncito_pdf {
+  display: inline-block;
+  border-radius: 6px;
+  padding: 2px 8px;
+  font-family: var(--sans);
+  font-size: 0.85rem;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: 0;
+}
+
+.botoncito_lindo { background: var(--band); color: var(--ink); }
+.botoncito_pdf { background: #c0392b; color: #fff; }
+
+.centrar { text-align: center; }
+
+.centrar2 {
+  text-align: center;
+  font-size: 1.75rem;
+  color: var(--accent);
+}
+
+.mainimg {
+  border-radius: 12px;
+  float: right;
+  margin: 0 0 1.5rem 1.5rem;
+}
+
+@media print {
+  .site-header { display: none; }
+  .entry-body { display: block !important; }
+  body { font-size: 11pt; }
 }
