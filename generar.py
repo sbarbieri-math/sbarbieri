@@ -107,7 +107,7 @@ def tabla_talks(nodos):
             f'<td class="col-date" data-label="Date">{esc(fecha)}</td>\n'
             f'<td class="col-title" data-label="Talk">{esc(texto(t, "title"))}</td>\n'
             f'<td class="col-where" data-label="Where">{esc(texto(t, "where"))}</td>\n'
-            f'<td class="col-links" data-label="Slides">{ls}</td>\n'
+            f'<td class="col-links" data-label="Notes">{ls}</td>\n'
             "</tr>"
         )
     cuerpo = "\n".join(filas)
@@ -118,7 +118,7 @@ def tabla_talks(nodos):
 <th scope="col">Date</th>
 <th scope="col">Talk</th>
 <th scope="col">Where</th>
-<th scope="col">Slides</th>
+<th scope="col">Notes</th>
 </tr>
 </thead>
 <tbody>
