@@ -15,17 +15,17 @@
     <talk year="2026" month="September">
       <title>Extraterrestrial groups 👽</title>
       <where>Dynamical Systems Seminar, Jagiellonian University, Kraków, Poland</where>
-      <link label="PDF" href="archivos/talks/talk_2026_UFO_krakow.pdf"/>
+      <link label="Slides" href="archivos/talks/talk_2026_UFO_krakow.pdf"/>
     </talk>
     <talk year="2026" month="June">
       <title>Dinámica simbólica: autosimulación y extraterrestres</title>
       <where>Coloquio de matemáticas, PUC, Chile</where>
-      <link label="PDF" href="archivos/talks/talk_2026_extraterrestrial_groups.pdf"/>
+      <link label="Slides" href="archivos/talks/talk_2026_extraterrestrial_groups.pdf"/>
     </talk>
     <talk year="2026" month="June">
       <title>Extraterrestrial groups 👽</title>
       <where>Dyadisc 9, St. Valérie sur Somme, France</where>
-      <link label="PDF" href="archivos/talks/talk_2026_coloquioPUC.pdf"/>
+      <link label="Slides" href="archivos/talks/talk_2026_coloquioPUC.pdf"/>
     </talk>
     <talk year="2026" month="April">
       <title>Un enfoque aritmético para la construcción de embaldosados aperiódicos</title>
@@ -34,7 +34,7 @@
     <talk year="2025" month="November">
       <title>Recetas de cocina para embaldosar el plano Euclidiano</title>
       <where>Pontificia universidad católica de Chile</where>
-      <link label="PDF" href="archivos/talks/talk_2025_puc_divulgacion.pdf"/>
+      <link label="Slides" href="archivos/talks/talk_2025_puc_divulgacion.pdf"/>
     </talk>
     <talk year="2025" month="November">
       <title>Computable dynamics</title>
@@ -71,7 +71,7 @@
     <talk year="2025" month="April">
       <title>Cellular automata and percolation in groups</title>
       <where>Seminario de probabilidades de Chile</where>
-      <link label="VIDEO" href="https://youtu.be/NYkBTKHYfk0?si=5BfEIlUiM8uziF62"/>
+      <link label="Video" href="https://youtu.be/NYkBTKHYfk0"/>
     </talk>
     <talk year="2025" month="March">
       <title>El grupo de automorfismos de un subshift</title>
@@ -83,8 +83,8 @@
     </talk>
     <talk year="2025" month="March">
       <title>Triangulaciones del cuadrado con área uniforme</title>
-      <where>USACH</where>
-      <link label="VIDEO" href="https://drive.google.com/file/d/1BxNIwAj41knJrOftbUCV34gsGbSJ6Gaz/view?usp=sharing"/>
+      <where>Universidad de Santiago de Chile</where>
+      <link label="Video" href="https://drive.google.com/file/d/1BxNIwAj41knJrOftbUCV34gsGbSJ6Gaz/view"/>
     </talk>
     <talk year="2024" month="December">
       <title>Cellular automata and percolation in groups</title>
@@ -113,12 +113,12 @@
     <talk year="2024" month="April">
       <title>Como decorar una cocina con matemáticas</title>
       <where>FUNDAPROMAT Panamá (virtual)</where>
-      <link label="PDF" href="archivos/talks/talk_2024_Panama.pdf"/>
+      <link label="Slides" href="archivos/talks/talk_2024_Panama.pdf"/>
     </talk>
     <talk year="2023" month="December">
       <title>Como decorar una cocina con matemáticas</title>
       <where>SOMACHI, Festival de matemáticas</where>
-      <link label="PDF" href="archivos/talks/talk_2024_Panama.pdf"/>
+      <link label="Slides" href="archivos/talks/talk_2024_Panama.pdf"/>
     </talk>
     <talk year="2023" month="October">
       <title>Extensiones libres de subshifts</title>
@@ -127,207 +127,212 @@
     <talk year="2023" month="October">
       <title>Sturmian configurations through asymptotic pairs</title>
       <where>Brin Mathematics Research Center, Maryland, USA</where>
-      <link label="PDF" href="archivos/talks/talk_2023_brinmc.pdf"/>
+      <link label="Slides" href="archivos/talks/talk_2023_brinmc.pdf"/>
     </talk>
     <talk year="2023" month="August">
       <title>Entropía en sistemas dinámicos</title>
       <where>Jornada de postgrado, USACH, Santiago</where>
-      <link label="PDF" href="archivos/talks/talk_2023_vipo.pdf"/>
+      <link label="Slides" href="archivos/talks/talk_2023_vipo.pdf"/>
     </talk>
     <talk year="2023" month="March">
       <title>Self-simulable groups</title>
       <where>Dyadisc 5, Liège, Belgium (virtual)</where>
-      <link label="PDF" href="archivos/talks/talk_2023_dyadisc.pdf"/>
+      <link label="Slides" href="archivos/talks/talk_2023_dyadisc.pdf"/>
     </talk>
     <talk year="2022" month="December">
       <title>Pares asintóticos indistinguibles</title>
       <where>Somachi, Chile</where>
-      <link label="PDF" href="archivos/talks/talk_2022_somachi.pdf"/>
+      <link label="Slides" href="archivos/talks/talk_2022_somachi.pdf"/>
     </talk>
     <talk year="2022" month="December">
       <title>Self-simulable groups</title>
       <where>Group Actions: Dynamics, Measure, Topology, Munster, Germany</where>
-      <link label="PDF" href="archivos/talks/talk_2022_munster.pdf"/>
+      <link label="Slides" href="archivos/talks/talk_2022_munster.pdf"/>
     </talk>
     <talk year="2022" month="November">
       <title>Insdistinguishability and multidimensional Sturmian configurations</title>
       <where>Combinatorics on Words seminar (virtual)</where>
-      <link label="PDF" href="archivos/talks/talk_2022_COW.pdf"/>
+      <link label="Slides" href="archivos/talks/talk_2022_COW.pdf"/>
     </talk>
     <talk year="2022" month="November">
       <title>The Lanford-Ruelle theorem for actions of sofic groups</title>
       <where>UT Groups &amp; Dynamics (virtual)</where>
-      <link label="PDF VIDEO" href="archivos/talks/talk_2022_texas.pdf"/>
+      <link label="Slides" href="archivos/talks/talk_2022_texas.pdf"/>
+      <link label="Video" href="https://www.youtube.com/watch?v=L_kOP7fVdTM"/>
     </talk>
     <talk year="2022" month="June">
       <title>Indistinguishability and multidimensional Sturmian configurations</title>
       <where>Dyadisc, Liège (virtual)</where>
-      <link label="PDF" href="archivos/talks/talk_2022_dyadisc.pdf"/>
+      <link label="Slides" href="archivos/talks/talk_2022_dyadisc.pdf"/>
     </talk>
     <talk year="2022" month="May">
       <title>Formalismo termodinámico en grupos sóficos</title>
       <where>Seminario de sistemas dinámicos de Santiago</where>
-      <link label="PDF" href="archivos/talks/talk_2022_LRsofic.pdf"/>
+      <link label="Slides" href="archivos/talks/talk_2022_LRsofic.pdf"/>
     </talk>
     <talk year="2022" month="March">
       <title>Pares asintóticos indistinguibles</title>
       <where>Seminario de álgebra de Guadalajara (virtual)</where>
-      <link label="VIDEO" href="https://www.youtube.com/watch?v=kbHQARqRlsc"/>
+      <link label="Video" href="https://www.youtube.com/watch?v=kbHQARqRlsc"/>
     </talk>
     <talk year="2021" month="October">
       <title>Self-simulable groups</title>
       <where>UT Groups &amp; Dynamics (virtual)</where>
-      <link label="PDF VIDEO" href="archivos/talks/talk_2021_selmuble_UTGD.pdf"/>
+      <link label="Slides" href="archivos/talks/talk_2021_selmuble_UTGD.pdf"/>
+      <link label="Video" href="https://www.youtube.com/watch?v=m8NXIV2NduU"/>
     </talk>
     <talk year="2021" month="September">
       <title>Effective dynamics</title>
       <where>UT Groups &amp; Dynamics (virtual)</where>
-      <link label="PDF VIDEO" href="archivos/talks/talk_2021_effective_UTGD.pdf"/>
+      <link label="Slides" href="archivos/talks/talk_2021_effective_UTGD.pdf"/>
+      <link label="Video" href="https://www.youtube.com/watch?v=Yg2NOS2ZE0w"/>
     </talk>
     <talk year="2021" month="April">
       <title>Self-simulable groups</title>
       <where>Séminaire TEICH Marseille (virtual)</where>
-      <link label="PDF" href="archivos/talks/talk_2021_teich.pdf"/>
+      <link label="Slides" href="archivos/talks/talk_2021_teich.pdf"/>
     </talk>
     <talk year="2020" month="October">
       <title>Acciones calculables de grupos y su dinámica</title>
       <where>Seminario de Grupos y Geometría (virtual)</where>
-      <link label="PDF" href="archivos/talks/talk_2020_groupsgeometry.pdf"/>
+      <link label="Slides" href="archivos/talks/talk_2020_groupsgeometry.pdf"/>
     </talk>
     <talk year="2020" month="June">
       <title>On the relation between topological entropy and asymptotic pairs</title>
       <where>Seminario de sistemas dinámicos de Santiago (virtual)</where>
-      <link label="PDF" href="archivos/talks/talk_2020_santiago.pdf"/>
+      <link label="Slides" href="archivos/talks/talk_2020_santiago.pdf"/>
     </talk>
     <talk year="2020" month="May">
       <title>Topological Markov properties</title>
       <where>One day online session for symbolic dynamics (virtual)</where>
-      <link label="PDF VIDEO" href="archivos/talks/talk_2020_Brynaconf.pdf"/>
+      <link label="Slides" href="archivos/talks/talk_2020_Brynaconf.pdf"/>
+      <link label="Video" href="https://www.youtube.com/watch?v=8-OKgW8Tztg"/>
     </talk>
     <talk year="2020" month="March">
       <title>Sobre la relación entre entropía topológica y parejas asintóticas</title>
       <where>Coloquio UNAM, Mexico city, Mexico</where>
-      <link label="VIDEO" href="https://www.youtube.com/watch?v=zoypCk_eJk0&amp;feature=youtu.be"/>
+      <link label="Video" href="https://www.youtube.com/watch?v=zoypCk_eJk0"/>
     </talk>
     <talk year="2020" month="February">
       <title>The domino problem for surface groups</title>
       <where>Journées de Combinatoire de Bordeaux</where>
-      <link label="PDF" href="archivos/talks/talk_2020_JCB.pdf"/>
+      <link label="Slides" href="archivos/talks/talk_2020_JCB.pdf"/>
     </talk>
     <talk year="2019" month="May">
       <title>Topological entropies of subshifts of finite type in countable amenable groups</title>
       <where>Symbolic Dynamical Systems, Oaxaca, Mexico</where>
-      <link label="PDF VIDEO" href="archivos/talks/talk_2019_oaxaca.pdf"/>
+      <link label="Slides" href="archivos/talks/talk_2019_oaxaca.pdf"/>
+      <link label="Video" href="http://www.birs.ca/events/2019/5-day-workshops/19w5093/videos/watch/201905131000-Barbieri.html"/>
     </talk>
     <talk year="2018" month="December">
       <title>The domino problem for word-hyperbolic groups</title>
       <where>Conference on Computability, Complexity and Randomness, Santiago, Chile</where>
-      <link label="PDF" href="archivos/talks/talk_2018_ccr.pdf"/>
+      <link label="Slides" href="archivos/talks/talk_2018_ccr.pdf"/>
     </talk>
     <talk year="2018" month="October">
       <title>The Dobrushin Lanford Ruelle theorem on steroids</title>
       <where>UBC probability seminar, Vancouver, Canada</where>
-      <link label="PDF" href="archivos/talks/talk_2018_UBC.pdf"/>
+      <link label="Slides" href="archivos/talks/talk_2018_UBC.pdf"/>
     </talk>
     <talk year="2018" month="March">
       <title>A strongly aperiodic SFT in the Grigorchuk group</title>
       <where>Algorithmic questions in Dynamical systems, Toulouse, France</where>
-      <link label="PDF" href="archivos/talks/talk_2018_toulouse.pdf"/>
+      <link label="Slides" href="archivos/talks/talk_2018_toulouse.pdf"/>
     </talk>
     <talk year="2017" month="July">
       <title>A strongly aperiodic SFT in the Grigorchuk group</title>
       <where>Pingree Park, Colorado, USA</where>
-      <link label="PDF" href="archivos/talks/talk_2017_pingree.pdf"/>
+      <link label="Slides" href="archivos/talks/talk_2017_pingree.pdf"/>
     </talk>
     <talk year="2017" month="June">
       <title>Shift spaces on groups: computability and dynamics</title>
       <where>PhD thesis defense</where>
-      <link label="PDF" href="archivos/talks/talk_2017_defense.pdf"/>
+      <link label="Slides" href="archivos/talks/talk_2017_defense.pdf"/>
     </talk>
     <talk year="2017" month="June">
       <title>Realizability of non-expansive dynamics and applications</title>
       <where>Dyadisc, Amiens, France</where>
-      <link label="PDF" href="archivos/talks/talk_2017_amiens.pdf"/>
+      <link label="Slides" href="archivos/talks/talk_2017_amiens.pdf"/>
     </talk>
     <talk year="2017" month="May">
       <title>Symbolic dynamics and simulation theorems</title>
       <where>Séminaire Automata IRIF, Paris, France</where>
-      <link label="PDF" href="archivos/talks/talk_2017_irif.pdf"/>
+      <link label="Slides" href="archivos/talks/talk_2017_irif.pdf"/>
     </talk>
     <talk year="2017" month="April">
       <title>Strongly aperiodic subshifts in countable groups</title>
       <where>Séminaire Ernest, Marseille, France</where>
-      <link label="PDF" href="archivos/talks/talk_2017_ernest.pdf"/>
+      <link label="Slides" href="archivos/talks/talk_2017_ernest.pdf"/>
     </talk>
     <talk year="2017" month="March">
       <title>Strongly aperiodic subshifts in countable groups</title>
       <where>Séminaire de combinatoire et théorie des nombres, Lyon, France</where>
-      <link label="PDF" href="archivos/talks/talk_2017_doua.pdf"/>
+      <link label="Slides" href="archivos/talks/talk_2017_doua.pdf"/>
     </talk>
     <talk year="2017" month="March">
       <title>The torsion problem for the automorphism group of a full Z^d-shift and its topological fullgroup</title>
       <where>Wandering Seminar, Wrocław, Poland</where>
-      <link label="PDF" href="archivos/talks/talk_2017_wroclaw.pdf"/>
+      <link label="Slides" href="archivos/talks/talk_2017_wroclaw.pdf"/>
     </talk>
     <talk year="2016" month="December">
       <title>The group of reversible Turing machines and the torsion problem for $Aut(A^{Z^d})$ and related topological fullgroups</title>
       <where>CMM, Santiago, Chile</where>
-      <link label="PDF" href="archivos/talks/talk_2016_cmm.pdf"/>
+      <link label="Slides" href="archivos/talks/talk_2016_cmm.pdf"/>
     </talk>
     <talk year="2016" month="June">
       <title>The domino problem for self-similar structures</title>
       <where>CIE, Paris, France</where>
-      <link label="PDF" href="archivos/talks/talk_2016_cie.pdf"/>
+      <link label="Slides" href="archivos/talks/talk_2016_cie.pdf"/>
     </talk>
     <talk year="2016" month="June">
       <title>The group of reversible Turing machines</title>
       <where>AUTOMATA, Zurich, Switzerland</where>
-      <link label="PDF" href="archivos/talks/talk_2016_automata.pdf"/>
+      <link label="Slides" href="archivos/talks/talk_2016_automata.pdf"/>
     </talk>
     <talk year="2016" month="May">
       <title>Une courte preuve de l'existence des subshifts fortement apériodiques sur les groupes dénombrables</title>
       <where>Interactions, ENS de Lyon, France</where>
-      <link label="PDF" href="archivos/talks/talk_2016_interactions.pdf"/>
+      <link label="Slides" href="archivos/talks/talk_2016_interactions.pdf"/>
     </talk>
     <talk year="2016" month="March">
       <title>Que pensent les mosaïques de la monotonie ?</title>
       <where>Séminaire détente matématique, ENS de Lyon, France</where>
-      <link label="PDF" href="archivos/talks/talk_2016_detente.pdf"/>
+      <link label="Slides" href="archivos/talks/talk_2016_detente.pdf"/>
     </talk>
     <talk year="2016" month="January">
       <title>A short proof of the existence of non-empty strongly aperiodic subshifts over {0,1} in countable groups</title>
       <where>Séminaire LAMA, Chambéry</where>
-      <link label="PDF" href="archivos/talks/talk_2016_lama.pdf"/>
+      <link label="Slides" href="archivos/talks/talk_2016_lama.pdf"/>
     </talk>
     <talk year="2015" month="December">
       <title>A short proof of the existence of non-empty strongly aperiodic subshifts over {0,1} in countable groups</title>
       <where>Université d'Amiens, France</where>
-      <link label="PDF" href="archivos/talks/talk_2015_amiens.pdf"/>
+      <link label="Slides" href="archivos/talks/talk_2015_amiens.pdf"/>
     </talk>
     <talk year="2015" month="November">
       <title>The domino problem for structures between Z and Z^2</title>
       <where>Université Paris-Est Creteil, France.</where>
-      <link label="PDF" href="archivos/talks/talk_2015_parisest.pdf"/>
+      <link label="Slides" href="archivos/talks/talk_2015_parisest.pdf"/>
     </talk>
     <talk year="2015" month="October">
       <title>The domino problem for structures between Z and Z^2</title>
       <where>University of Turku, Finland</where>
-      <link label="PDF" href="archivos/talks/talk_2015_turku.pdf"/>
+      <link label="Slides" href="archivos/talks/talk_2015_turku.pdf"/>
     </talk>
     <talk year="2015" month="October">
       <title>Subshifts in groups: From square-free words on graphs to aperiodic subshifts</title>
       <where>Séminaire Combinatoire et Algorithmes de Rouen, France</where>
-      <link label="PDF" href="archivos/talks/talk_2015_rouen.pdf"/>
+      <link label="Slides" href="archivos/talks/talk_2015_rouen.pdf"/>
     </talk>
     <talk year="2015" month="April">
       <title>Effectiveness and aperiodicity of subshifts</title>
       <where>Journées Calculabilitées, Fontainebleau, France</where>
-      <link label="PDF" href="archivos/talks/talk_2015_calculabilites.pdf"/>
+      <link label="Slides" href="archivos/talks/talk_2015_calculabilites.pdf"/>
     </talk>
     <talk year="2014" month="November">
       <title>Effectiveness in finitely generated groups</title>
       <where>LIAFA (now IRIF), Paris, France</where>
-      <link label="PDF" href="archivos/talks/talk_2014_liafa.pdf"/>
+      <link label="Slides" href="archivos/talks/talk_2014_liafa.pdf"/>
     </talk>
   </talks>
 
